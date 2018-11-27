@@ -1,5 +1,16 @@
-# dialogue-system
+## dialogue-system
 
+## Methods
+
+### dependency parsing
+
+## Challenges
+
+### dialogue management
+
+#### 多场景切换
+
+#### 跨场景继承
 
 ### semantic phenomena
 
@@ -7,11 +18,17 @@
 
 #### ellipses
 
-### dialogue management
+## Paper
 
-#### 多场景切换
+### 2018
 
-#### 跨场景继承
+- Building an Ellipsis-aware Chinese Dependency Treebank for Web Text [arxiv](https://arxiv.org/abs/1801.06613) | [code](https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis)
+  - [x] ellipses 
+
+### 2005
+
++ Question Answering Passage Retrieval Using Dependency Relations. [paper](https://www.comp.nus.edu.sg/~kanmy/papers/f66-cui.pdf) | [slides](https://www.comp.nus.edu.sg/~kanmy/papers/deppass_draft_v0.5.htm)
+  - [x] dependency parsing
 
 
 
