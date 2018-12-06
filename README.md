@@ -4,6 +4,10 @@
 
 ### dependency parsing
 
+### search-based
+
+???
+
 ## Challenges
 
 ### dialogue management
@@ -15,6 +19,8 @@
 ### semantic phenomena
 
 #### anaphora
+
+#### 句子压缩
 
 #### ellipses
 
