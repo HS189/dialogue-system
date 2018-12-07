@@ -30,11 +30,31 @@
 
 + [Deep Learning for Dialogue Systems](http://deepdialogue.miulab.tw/) COLING 2018
 
+  ？？？
+
+
+- A Survey on Dialogue Systems: Recent Advances and New Frontiers JD 2018 [arxiv](https://arxiv.org/abs/1711.01731)
+
+  ???
 
 - Building an Ellipsis-aware Chinese Dependency Treebank for Web Text [arxiv](https://arxiv.org/abs/1801.06613) | [code](https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis)
+
   - [x] ellipses 
 
 ---
+
+### 2017
+
++ Teaching Machines to Converse [code](https://github.com/jiweil/Jiwei-Thesis)
+
+  ???
+
+
+
+
+---
+
+
 
 ### 2005
 
@@ -44,6 +64,17 @@
 
 
 more refer:
+
+实录分享 | 计算未来轻沙龙：对话系统研究进展（视频 + PPT）
+
+https://blog.csdn.net/c9Yv2cf9I06K2A9E/article/details/82392595
+
+CIIS2018演讲实录丨哈尔滨工业大学车万翔：任务型对话系统研究进展
+
+https://mp.weixin.qq.com/s/UZbt1E6QntwtWWvJfTL3eQ
+
+???
+
 https://github.com/bnsblue/awesome-dialogue-management
 
 [多轮对话之对话管理(Dialog Management)](https://zhuanlan.zhihu.com/p/32716205)
