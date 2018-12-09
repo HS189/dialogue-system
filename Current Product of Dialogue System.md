@@ -17,7 +17,7 @@ OSL 易于学习的特性，让毫无工程背景的人员也能轻易上手，�
 
 
 
-#### 灵云-捷通华声
+#### 灵云-捷通华声 - 政务
 
 https://www.aicloud.com/dev/index/index
 
@@ -29,7 +29,7 @@ https://www.aicloud.com/home/product/subpage?key=nicss#demo-experience
 
 
 
-#### 图灵机器人
+#### 图灵机器人 - 儿童教育机器人
 
 闲聊-对话体验
 
@@ -49,21 +49,11 @@ http://docs.turingos.cn/script/intro_doc/
 
 https://www.kancloud.cn/turing/www-tuling123-com/718218
 
-#### 云知声
-
-**基于知识图谱的人机对话系统方法与实践**
-
-https://blog.csdn.net/dQCFKyQDXYm3F8rB0/article/details/83247433
-
-https://doc.huodongjia.com/detail-6467.html
-
-https://pic.huodongjia.com/ganhuodocs/2017-12-13/1513149161.67.pdf
-
-???
+#### 文因互联 - 
 
 
 
-
+#### 云知声 - 车载
 
 https://github.com/oraleval
 
@@ -74,6 +64,16 @@ https://github.com/oraleval/Grammar-rules
 **JSGF** stands for **Java Speech Grammar Format** or the **JSpeech Grammar Format** (in a W3C Note). Developed by [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems), it is a textual representation of [grammars](https://en.wikipedia.org/wiki/Formal_grammar) for use in [speech recognition](https://en.wikipedia.org/wiki/Speech_recognition) for technologies like [XHTML+Voice](https://en.wikipedia.org/wiki/XHTML%2BVoice). JSGF adopts the style and conventions of the [Java programming language](https://en.wikipedia.org/wiki/Java_(programming_language)) in addition to use of traditional grammar notations.
 
 The [Speech Recognition Grammar Specification](https://en.wikipedia.org/wiki/SRGS) was derived from this specification.
+
+
+
+#### 思必驰 - 
+
+[pdf](百度网盘-NLP专场：启发式对话中的知识管理（思必驰）.pdf)
+
+![规则系统](https://github.com/bifeng/dialogue-system/raw/master/image/rule_system_sbc.png)
+
+？？？
 
 
 
