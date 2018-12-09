@@ -69,11 +69,11 @@ The [Speech Recognition Grammar Specification](https://en.wikipedia.org/wiki/SRG
 
 #### 思必驰 - 
 
-[pdf](百度网盘-NLP专场：启发式对话中的知识管理（思必驰）.pdf)
+refer:<br>[启发式对话中的知识管理](https://blog.csdn.net/dQCFKyQDXYm3F8rB0/article/details/81571615) [pdf](百度网盘-NLP专场：启发式对话中的知识管理（思必驰）.pdf)
 
 ![规则系统](https://github.com/bifeng/dialogue-system/raw/master/image/rule_system_sbc.png)
 
-？？？
+![对话管理](https://github.com/bifeng/dialogue-system/raw/master/image/dialogue_management_sbc.png)
 
 
 
