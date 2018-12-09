@@ -4,11 +4,11 @@
 
 ### dependency parsing
 
-### search-based
 
-???
 
 ## Challenges
+
+### Multi-Hop
 
 ### dialogue management
 
@@ -28,12 +28,16 @@
 
 ### 2018
 
-+ [Deep Learning for Dialogue Systems](http://deepdialogue.miulab.tw/) COLING 2018
++ [Deep Learning for Dialogue Systems](http://deepdialogue.miulab.tw/) COLING
 
   ？？？
 
 
-- A Survey on Dialogue Systems: Recent Advances and New Frontiers JD 2018 [arxiv](https://arxiv.org/abs/1711.01731)
+- A Survey on Dialogue Systems: Recent Advances and New Frontiers JD [arxiv](https://arxiv.org/abs/1711.01731)
+
+  ???
+
+- Commonsense for Generative Multi-Hop Question Answering Tasks EMNLP [arxiv](https://export.arxiv.org/abs/1809.06309) | [code](https://github.com/yicheng-w/CommonSenseMultiHopQA)
 
   ???
 
@@ -48,7 +52,6 @@
 + Teaching Machines to Converse [code](https://github.com/jiweil/Jiwei-Thesis)
 
   ???
-
 
 
 

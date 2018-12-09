@@ -1,0 +1,1 @@
+使用seq2seq生成方法，对query进行expansion.
