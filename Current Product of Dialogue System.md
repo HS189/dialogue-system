@@ -77,6 +77,22 @@ refer:<br>[启发式对话中的知识管理](https://blog.csdn.net/dQCFKyQDXYm3
 
 
 
+#### 科大讯飞
+
+
+
+
+
+#### 小爱同学 - 小米
+
+https://blog.csdn.net/dQCFKyQDXYm3F8rB0/article/details/79933707
+
+https://doc.huodongjia.com/detail-6953.html
+
+https://blog.csdn.net/u010102264/article/details/78370058
+
+https://zhuanlan.zhihu.com/p/32716205
+
 #### 广州火焰信息科技有限公司
 
 http://www.birdbot.cn/product-bot.html
