@@ -2,14 +2,6 @@ refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zh
 
 
 
-
-
-蚂蚁金服:
-
-![智能客服](https://github.com/bifeng/dialogue-system/raw/master/image/qa_ant_finance.png)
-
-
-
 #### 方案设计
 
 1. 规则+模型
