@@ -15,6 +15,8 @@ https://cn.olami.ai/wiki/?mp=overview&content=overview.html<br>一种在智能�
 OLAMI 语法描述语言（OLAMI Syntax Language，简称：OSL）是 OLAMI 平台针对自然语言处理所发展出的独特语法描述语言，自然语言语义互动（Natural Language Interaction, 简称：NLI）管理系统采用 OSL 取代复杂的编码编程，使用简单、容易学习而且灵活有弹性。  
 OSL 易于学习的特性，让毫无工程背景的人员也能轻易上手，能替您的智能语音/语言交互产品开发后的维护工作，以及尤其对于智能对话的能力扩展变得非常容易，有效降低产品研发与维护的时程及成本。
 
+上下文处理：<br>https://cn.olami.ai/wiki/?mp=nli&content=nli_context_processing.html<br>[一种在智能对话中实现上下文的方法](https://www.cnblogs.com/stdioh/p/7727399.html)
+
 
 
 #### 灵云-捷通华声 - 政务
@@ -48,6 +50,10 @@ http://docs.turingos.cn/script/intro_doc/
 帮助中心
 
 https://www.kancloud.cn/turing/www-tuling123-com/718218
+
+#### 百度机器人
+
+https://baidu.com/
 
 #### 文因互联 - 
 
@@ -124,6 +130,34 @@ CTR
 从技术的角度上来讲，我们在构建了**语义要素库**之后，是可以实现 zero-shot 的问题识别的。即，不需要见到特定的要素组合的训练样本，只要在其他训练样本中见过单独的要素在其他场景下出现，一样可以识别这个要素组合，对应到相应问题。
 
 另外，我们也构建了多任务学习的框架。三要素识别任务的目标是非常类似的，都可以看做是多分类问题。多任务学习让不同任务间的数据可以共享。虽然每一个单独的任务都有足够的数据，但是不同任务间目标会让特征提取各有侧重，提高模型效果。
+
+
+
+
+
+#### 小薇、茉莉
+
+https://github.com/b3log/xiaov
+
+http://www.itpk.cn/
+
+
+
+| 代码         | 描述               | 示例                             |
+| ------------ | ------------------ | -------------------------------- |
+| **[date]**   | 当前的日期和时间   | 现在的时间是[date]。             |
+| **[cqname]** | 机器人的名字       | 我叫[cqname]，你叫什么啊！       |
+| **[father]** | 机器人的爸爸       | 我的爸爸是[father]。             |
+| **[mother]** | 机器人的妈妈       | 我的妈妈是[mother]。             |
+| **[name]**   | 机器人对用户的称呼 | [name]你好，很高兴认识你         |
+| **[height]** | 机器人的身高       | 我身高[height]呢                 |
+| **[weight]** | 机器人的体重       | 我的体重是[weight]               |
+| **[sex]**    | 机器人的性别       | [cqname]是[sex]的哦              |
+| **[zodiac]** | 机器人的星座       | [cqname]是[zodiac]的，[name]你呢 |
+| **[blood]**  | 机器人的血型       | 我是[blood]血型的                |
+| **[school]** | 机器人的学校       | 我目前在[school]学校呢           |
+| **[city1]**  | 机器人的城市       | 我来自[city1]                    |
+| **[city2]**  | 机器人的城市地区   | 我来自[city1]的[city2]           |
 
 
 
