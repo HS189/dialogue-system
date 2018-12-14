@@ -4,13 +4,13 @@
 
 ### dependency parsing
 
-
+### natural language generation
 
 ## Challenges
 
-### Multi-Hop
+### multi-hop
 
-### dialogue management
+### dialogue management 
 
 #### 多场景切换
 
@@ -24,7 +24,25 @@
 
 #### ellipses
 
+### question classification
+
+#### sentimental
+
+#### factoids 
+
+#### intent
+
+
+
 ## Paper
+
+### 2019
+
++ Response Generation by Context-aware Prototype Editing AAAI-19 [arxiv](https://arxiv.org/abs/1806.07042) | [code](https://github.com/MarkWuNLP/ResponseEdit)
+  + [x] natural language generation
+
+  ???
+
 
 ### 2018
 
@@ -38,6 +56,8 @@
   ???
 
 - Commonsense for Generative Multi-Hop Question Answering Tasks EMNLP [arxiv](https://export.arxiv.org/abs/1809.06309) | [code](https://github.com/yicheng-w/CommonSenseMultiHopQA)
+
+  - [x] multi-hop
 
   ???
 
