@@ -4,8 +4,6 @@
 
 ### dependency parsing
 
-### natural language generation
-
 ## Challenges
 
 ### multi-hop
@@ -16,13 +14,31 @@
 
 #### 跨场景继承
 
+#### Retrieval Based
+
 ### semantic phenomena
 
 #### anaphora
 
-#### 句子压缩
-
 #### ellipses
+
+### natural language generation
+
+#### sentence editing (句子可控改写)
+
+#### sentence compression (句子压缩)
+
+(Application: 商品标题压缩，资讯标题改写，PUSH消息改写...)
+
+
+
+https://zhuanlan.zhihu.com/p/25669703
+
+https://www.jianshu.com/p/96ac6f0bf672
+
+
+
+#### grammar error detection
 
 ### question classification
 
@@ -39,7 +55,7 @@
 ### 2019
 
 + Response Generation by Context-aware Prototype Editing AAAI-19 [arxiv](https://arxiv.org/abs/1806.07042) | [code](https://github.com/MarkWuNLP/ResponseEdit)
-  + [x] natural language generation
+  + [x] sentence editing
 
   ???
 
@@ -70,6 +86,40 @@
 ### 2017
 
 + Teaching Machines to Converse [code](https://github.com/jiweil/Jiwei-Thesis)
+
+  ???
+
++ Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots. ACL. 2017 [code](https://github.com/MarkWuNLP/MultiTurnResponseSelection)
+
+  - [x] Retrieval Based
+
+  ???
+
+
+
+---
+
+
+
+#### 2015
+
++ Ground Truth for Grammatical Error Correction Metrics  ACL 2015 [code](https://github.com/cnap/gec-ranking)
+
+  - [x] grammar error detection
+
+  ???
+
+
+
+---
+
+
+
+### 2008
+
++ Global Inference for Sentence Compression: An Integer Linear Programming Approach [code](https://github.com/cnap/sentence-compression)
+
+  - [x] sentence compression
 
   ???
 
