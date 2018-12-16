@@ -19,7 +19,7 @@ OSL 易于学习的特性，让毫无工程背景的人员也能轻易上手，�
 
 
 
-#### 灵云-捷通华声 - 政务
+#### 灵云机器人 - 捷通华声 - 政务
 
 https://www.aicloud.com/dev/index/index
 
@@ -32,6 +32,8 @@ https://www.aicloud.com/home/product/subpage?key=nicss#demo-experience
 
 
 #### 图灵机器人 - 儿童教育机器人
+
+refer:<br>知识图谱在问答系统中的应用和挑战-2016-知识图谱会议
 
 闲聊-对话体验
 
@@ -51,9 +53,23 @@ http://docs.turingos.cn/script/intro_doc/
 
 https://www.kancloud.cn/turing/www-tuling123-com/718218
 
+![规则系统](https://github.com/bifeng/dialogue-system/raw/master/image/turing_rule_based.png)
+
+![挑战](https://github.com/bifeng/dialogue-system/raw/master/image/turing_challenge.png)
+
+
+
 #### 百度机器人
 
 https://baidu.com/
+
+#### 云问机器人
+
+https://v3.faqrobot.org/register.html
+
+
+
+#### 小i机器人 - iBotCloud
 
 #### 文因互联 - 
 

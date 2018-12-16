@@ -26,29 +26,35 @@
 
 #### sentence editing (句子可控改写)
 
-#### sentence compression (句子压缩)
-
-(Application: 商品标题压缩，资讯标题改写，PUSH消息改写...)
-
-
-
-https://zhuanlan.zhihu.com/p/25669703
-
-https://www.jianshu.com/p/96ac6f0bf672
-
-
-
 #### grammar error detection
 
 ### question classification
 
-#### sentimental
-
 #### factoids 
+
+#### sentimental
 
 #### intent
 
+#### personalized (如何让机器人具有特定的说话风格)
 
+## Competition
+
+NLPCC
+
+NLPCC 2017 Emotional Conversation Generation
+
+http://coai.cs.tsinghua.edu.cn/hml/challenge/
+
+[Overview of the NLPCC 2017 Shared Task: Emotion Generation Challenge](http://coai.cs.tsinghua.edu.cn/hml/media/files/Overview_of_the_NLPCC_2017_Shared_Task__Emotion_Generation_Challenge.pdf)
+
+[Second - Babbling-The HIT-SCIR System for Emotional Conversation Generation]()
+
+---
+
+STC (Short Text Conversation)
+
+http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 
 ## Paper
 
@@ -56,6 +62,12 @@ https://www.jianshu.com/p/96ac6f0bf672
 
 + Response Generation by Context-aware Prototype Editing AAAI-19 [arxiv](https://arxiv.org/abs/1806.07042) | [code](https://github.com/MarkWuNLP/ResponseEdit)
   + [x] sentence editing
+
+  ???
+
++ Learning Personalized End-to-End Goal-Oriented Dialog AAAI-19 [arxiv](https://arxiv.org/abs/1811.04604)
+
+  - [x] personalized
 
   ???
 
@@ -68,6 +80,13 @@ https://www.jianshu.com/p/96ac6f0bf672
 
 
 - A Survey on Dialogue Systems: Recent Advances and New Frontiers JD [arxiv](https://arxiv.org/abs/1711.01731)
+
+  ???
+
+- Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074)
+
+  - [x] natural language generation
+  - [x] sentimental
 
   ???
 
@@ -89,6 +108,12 @@ https://www.jianshu.com/p/96ac6f0bf672
 
   ???
 
++ Assigning personality/identity to a chatting machine for coherent conversation generation [arxiv](https://arxiv.org/abs/1706.02861)
+
+  - [x] personalized
+
+  ???
+
 + Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots. ACL. 2017 [code](https://github.com/MarkWuNLP/MultiTurnResponseSelection)
 
   - [x] Retrieval Based
@@ -101,7 +126,9 @@ https://www.jianshu.com/p/96ac6f0bf672
 
 
 
-#### 2015
+
+
+### 2015
 
 + Ground Truth for Grammatical Error Correction Metrics  ACL 2015 [code](https://github.com/cnap/gec-ranking)
 
@@ -115,13 +142,7 @@ https://www.jianshu.com/p/96ac6f0bf672
 
 
 
-### 2008
 
-+ Global Inference for Sentence Compression: An Integer Linear Programming Approach [code](https://github.com/cnap/sentence-compression)
-
-  - [x] sentence compression
-
-  ???
 
 
 
@@ -133,6 +154,12 @@ https://www.jianshu.com/p/96ac6f0bf672
 
 + Question Answering Passage Retrieval Using Dependency Relations. [paper](https://www.comp.nus.edu.sg/~kanmy/papers/f66-cui.pdf) | [slides](https://www.comp.nus.edu.sg/~kanmy/papers/deppass_draft_v0.5.htm)
   - [x] dependency parsing
+
+
+
+---
+
+
 
 
 
