@@ -16,6 +16,8 @@
 
 #### Retrieval Based
 
+#### Knowledge Based
+
 ### natural language understanding
 
 #### personality (人格)
@@ -120,7 +122,11 @@ http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 
   ???
 
++ Question Answering on Knowledge Bases and Text using Universal Schema and Memory Networks ACL 2017 [arxiv](https://arxiv.org/abs/1704.08384) | [code](https://github.com/rajarshd/TextKBQA)
 
+  - [x] Knowledge Based
+
+  ???
 
 ---
 
