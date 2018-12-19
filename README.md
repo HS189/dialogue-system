@@ -16,27 +16,27 @@
 
 #### Retrieval Based
 
-### semantic phenomena
+### natural language understanding
 
-#### anaphora
+#### personality (人格)
 
-#### ellipses
+如何让机器人具有特定的说话风格
+
+#### sentimental (情商)
+
+#### semantic phenomena
+
+##### anaphora
+
+##### ellipses
+
+#### utterance compression
 
 ### natural language generation
 
 #### sentence editing (句子可控改写)
 
 #### grammar error detection
-
-### question classification
-
-#### factoids 
-
-#### sentimental
-
-#### intent
-
-#### personalized (如何让机器人具有特定的说话风格)
 
 ## Competition
 
@@ -100,17 +100,17 @@ http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 
   - [x] ellipses 
 
+- Assigning personality/identity to a chatting machine for coherent conversation generation, IJCAI 2018 [arxiv](https://arxiv.org/abs/1706.02861) | [code](https://github.com/qianqiao/AssignPersonality)
+
+  - [x] personality
+
+  ???
+
 ---
 
 ### 2017
 
 + Teaching Machines to Converse [code](https://github.com/jiweil/Jiwei-Thesis)
-
-  ???
-
-+ Assigning personality/identity to a chatting machine for coherent conversation generation [arxiv](https://arxiv.org/abs/1706.02861)
-
-  - [x] personalized
 
   ???
 
@@ -140,9 +140,24 @@ http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 
 ---
 
+### 2012
+
++ A Two-step Approach to Sentence Compression of Spoken Utterances ACL 2012 [paper](http://aclweb.org/anthology//P/P12/P12-2033.pdf)
+  + [x] utterance compression
+
+  ???
 
 
 
+---
+
+### 2010
+
++ Using spoken utterance compression for meeting summarization: a pilot study, SLT 2010 [paper]()
+
+  - [x] utterance compression
+
+  ???
 
 
 
