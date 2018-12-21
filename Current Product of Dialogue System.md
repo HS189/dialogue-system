@@ -75,7 +75,9 @@ https://v3.faqrobot.org/register.html
 
 
 
-#### 云知声 - 车载
+#### 云知声 - 车载\医疗
+
+http://dev.hivoice.cn/exp_center/nlu/nlu.jsp
 
 https://github.com/oraleval
 
@@ -90,6 +92,8 @@ The [Speech Recognition Grammar Specification](https://en.wikipedia.org/wiki/SRG
 
 
 #### 思必驰 - 
+
+https://www.dui.ai/console/resource/index.html#/skillstore
 
 refer:<br>[启发式对话中的知识管理](https://blog.csdn.net/dQCFKyQDXYm3F8rB0/article/details/81571615) [pdf](百度网盘-NLP专场：启发式对话中的知识管理（思必驰）.pdf)
 

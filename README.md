@@ -8,7 +8,7 @@
 
 ### multi-hop
 
-### dialogue management 
+### dialogue management  (context)
 
 #### 多场景切换
 
@@ -28,9 +28,13 @@
 
 #### semantic phenomena
 
+##### coreference
+
+https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30
+
 ##### anaphora
 
-##### ellipses
+##### ellipsis
 
 #### utterance compression
 
