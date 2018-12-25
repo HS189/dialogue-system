@@ -46,15 +46,24 @@ https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-fo
 
 ## Competition
 
-NLPCC
++ NLPCC
 
-NLPCC 2017 Emotional Conversation Generation
+  NLPCC 2017
 
-http://coai.cs.tsinghua.edu.cn/hml/challenge/
+  http://tcci.ccf.org.cn/conference/2017/taskdata.php
 
-[Overview of the NLPCC 2017 Shared Task: Emotion Generation Challenge](http://coai.cs.tsinghua.edu.cn/hml/media/files/Overview_of_the_NLPCC_2017_Shared_Task__Emotion_Generation_Challenge.pdf)
+  + Emotional Conversation Generation
 
-[Second - Babbling-The HIT-SCIR System for Emotional Conversation Generation]()
+    http://coai.cs.tsinghua.edu.cn/hml/challenge/
+
+    [Overview of the NLPCC 2017 Shared Task: Emotion Generation Challenge](http://coai.cs.tsinghua.edu.cn/hml/media/files/Overview_of_the_NLPCC_2017_Shared_Task__Emotion_Generation_Challenge.pdf)
+
+    [Second - Babbling-The HIT-SCIR System for Emotional Conversation Generation]()
+
+  NLPCC 2018
+
+  http://tcci.ccf.org.cn/conference/2018/taskdata.php
+
 
 ---
 
@@ -89,7 +98,7 @@ http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 
   ???
 
-- Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074)
+- Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/)
 
   - [x] natural language generation
   - [x] sentimental
@@ -106,9 +115,13 @@ http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 
   - [x] ellipses 
 
-- Assigning personality/identity to a chatting machine for coherent conversation generation, IJCAI 2018 [arxiv](https://arxiv.org/abs/1706.02861) | [code](https://github.com/qianqiao/AssignPersonality)
+- Assigning personality/identity to a chatting machine for coherent conversation generation, IJCAI 2018 [arxiv](https://arxiv.org/abs/1706.02861) | [code](https://github.com/qianqiao/AssignPersonality) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/)
 
   - [x] personality
+
+    personality, includes name, gender, age, location, weight, constellation, hobby, idol, speciality, employer - extracted from Weibo Dataset with regular expression patterns.
+
+    为了可控性，可以直接用正则表达式解决！
 
   ???
 
