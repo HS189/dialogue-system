@@ -2,7 +2,11 @@
 
 ## Methods
 
-### dependency parsing
+### linguistically/semantically
+
+#### dependency parsing
+
+### neural networks
 
 ## Challenges
 
@@ -36,6 +40,10 @@ https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-fo
 
 ##### ellipsis
 
+##### sentence function 
+
+interrogative, declarative, imperative, and exclamatory
+
 #### utterance compression
 
 ### natural language generation
@@ -43,6 +51,8 @@ https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-fo
 #### sentence editing (句子可控改写)
 
 #### grammar error detection
+
+### data augmentation
 
 ## Competition
 
@@ -52,11 +62,11 @@ https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-fo
 
   http://tcci.ccf.org.cn/conference/2017/taskdata.php
 
-  + Emotional Conversation Generation
+  + **Emotional Conversation Generation**
 
     http://coai.cs.tsinghua.edu.cn/hml/challenge/
 
-    [Overview of the NLPCC 2017 Shared Task: Emotion Generation Challenge](http://coai.cs.tsinghua.edu.cn/hml/media/files/Overview_of_the_NLPCC_2017_Shared_Task__Emotion_Generation_Challenge.pdf)
+    Overview of the NLPCC 2017 Shared Task: Emotion Generation Challenge [paper](http://coai.cs.tsinghua.edu.cn/hml/media/files/Overview_of_the_NLPCC_2017_Shared_Task__Emotion_Generation_Challenge.pdf)
 
     [Second - Babbling-The HIT-SCIR System for Emotional Conversation Generation]()
 
@@ -64,12 +74,52 @@ https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-fo
 
   http://tcci.ccf.org.cn/conference/2018/taskdata.php
 
+  + **Grammatical Error Correction**
+
+  + **Spoken Language Understanding in Task-Oriented Dialogue Systems**
+
+  + **Open Domain Question Answering**
+
+    Overview of the NLPCC 2018 Shared Task: Open Domain QA [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV51.pdf)
+
+  + **Multi-Turn Human-Computer Conversations**
+
+    Overview of the NLPCC 2018 Shared Task: Multi-turn Human-Computer
+    Conversations [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV52.pdf)
+
+  + 
 
 ---
 
 STC (Short Text Conversation)
 
 http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
+
+## Literature review
+
+### 2018
+
++ Neural Approaches to Conversational AI, [arxiv](https://arxiv.org/abs/1809.08267)
+
+  - [x] neural networks
+
+  ???
+
++ [Deep Learning for Dialogue Systems](http://deepdialogue.miulab.tw/) COLING
+
+  - [x] neural networks
+
+  ？？？
+
+- A Survey on Dialogue Systems: Recent Advances and New Frontiers JD [arxiv](https://arxiv.org/abs/1711.01731)
+
+  ???
+
+### 2017
+
++ Teaching Machines to Converse, Jiwei Li's Thesis 2017 [code](https://github.com/jiweil/Jiwei-Thesis)
+
+  ???
 
 ## Paper
 
@@ -89,16 +139,8 @@ http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 
 ### 2018
 
-+ [Deep Learning for Dialogue Systems](http://deepdialogue.miulab.tw/) COLING
 
-  ？？？
-
-
-- A Survey on Dialogue Systems: Recent Advances and New Frontiers JD [arxiv](https://arxiv.org/abs/1711.01731)
-
-  ???
-
-- Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/)
+- Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](http://coai.cs.tsinghua.edu.cn/publications/)
 
   - [x] natural language generation
   - [x] sentimental
@@ -125,13 +167,28 @@ http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 
   ???
 
+- Generating Informative Responses with Controlled Sentence Function. ACL 2018 [paper](http://aclweb.org/anthology/P18-1139) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](https://github.com/kepei1106/SentenceFunction)
+
+  - [x]  sentence function
+
+
+  - [x] natural language generation
+
+  ???
+
+- Sequence-to-sequence Data Augmentation for Dialogue Language Understanding.  COLING 2018 [code](https://github.com/AtmaHou/Seq2SeqDataAugmentationForLU)
+
+  - [x] data augmentation
+
+    用户输入多样性拓展生成
+
+    ???
+
+- 
+
 ---
 
 ### 2017
-
-+ Teaching Machines to Converse [code](https://github.com/jiweil/Jiwei-Thesis)
-
-  ???
 
 + Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots. ACL. 2017 [code](https://github.com/MarkWuNLP/MultiTurnResponseSelection)
 
@@ -156,6 +213,13 @@ http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 + Ground Truth for Grammatical Error Correction Metrics  ACL 2015 [code](https://github.com/cnap/gec-ranking)
 
   - [x] grammar error detection
+
+  ???
+
++ Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745)
+
+  - [x] semantically
+  - [x] natural language generation
 
   ???
 
