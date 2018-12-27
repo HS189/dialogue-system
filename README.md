@@ -62,6 +62,8 @@ interrogative, declarative, imperative, and exclamatory
 
   http://tcci.ccf.org.cn/conference/2017/taskdata.php
 
+  http://tcci.ccf.org.cn/conference/2017/papers/
+
   + **Emotional Conversation Generation**
 
     http://coai.cs.tsinghua.edu.cn/hml/challenge/
@@ -74,26 +76,48 @@ interrogative, declarative, imperative, and exclamatory
 
   http://tcci.ccf.org.cn/conference/2018/taskdata.php
 
+  http://tcci.ccf.org.cn/conference/2018/papers/
+
   + **Grammatical Error Correction**
 
   + **Spoken Language Understanding in Task-Oriented Dialogue Systems**
 
-  + **Open Domain Question Answering**
-
-    Overview of the NLPCC 2018 Shared Task: Open Domain QA [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV51.pdf)
+    Overview of the NLPCC 2018 Shared Task: Spoken Language Understanding in Task-Oriented Dialog Systems, [paper](tcci.ccf.org.cn/conference/**2018**/papers/EV33.pdf)
 
   + **Multi-Turn Human-Computer Conversations**
 
     Overview of the NLPCC 2018 Shared Task: Multi-turn Human-Computer
     Conversations [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV52.pdf)
 
-  + 
+    1st [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV43.pdf)
+
+    2nd [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV5.pdf)
+
+  + **Open Domain Question Answering**
+
+    Overview of the NLPCC 2018 Shared Task: Open Domain QA [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV51.pdf)
 
 ---
 
-STC (Short Text Conversation)
++ STC (Short Text Conversation)
 
-http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
+  [NTCIR-12 Task on Short Text Conversation](http://ntcir12.noahlab.com.hk/stc.htm)
+
+  http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
+
+  http://research.nii.ac.jp/ntcir/ntcir-13/index.html
+
+  Overview of the NTCIR-12 Short Text Conversation Task, [paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL.pdf) | [slides](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL_slides.pdf)
+
+  NTCIR-13 Short Text Conversation (STC)
+
+  CYUT-III Short Text Conversation System at NTCIR-13 STC-2 Task, [paper](https://pdfs.semanticscholar.org/70bf/8936344b18d1aae48e9dc88cf555dca740db.pdf)
+
+  NTCIR-14 Short Text Conversation Task (STC-3)
+
+  http://sakailab.com/ntcir14stc3/
+
+  http://research.nii.ac.jp/ntcir/ntcir-14/index.html
 
 ## Literature review
 
