@@ -54,25 +54,6 @@ interrogative, declarative, imperative, and exclamatory
 
 ### data augmentation
 
-## Application
-
-### 微软 小冰
-
-- The Design and Implementation of XiaoIce, an Empathetic Social Chatbot, [arxiv](https://arxiv.org/pdf/1812.08989.pdf)
-
-  详细介绍了系统架构和关键组件，包括对话管理器、核心聊天、技能和移情计算模块。在系统设计中考虑了智商（IQ）和情商（EQ），将人机社交聊天作为马尔可夫决策过程（MDP）的决策，并优化了小冰的长期用户参与度和预期的每次会话对话（CPS）。我们展示了小冰如何动态识别人类的感受和状态，理解用户意图，并在长时间的对话中响应用户需求。
-
-- From Eliza to XiaoIce: Challenges and Opportunities with Social Chatbots, [arxiv](https://arxiv.org/abs/1801.01957)
-
-### Replika.ai
-
-+ CakeChat: Emotional Generative Dialog System [https://cakechat.replika.ai](https://cakechat.replika.ai/) | [code](https://github.com/lukalabs/cakechat)
-
-### SenticNet
-
-+ https://github.com/SenticNet
-    
-
 ## Competition
 
 + NLPCC
@@ -80,6 +61,8 @@ interrogative, declarative, imperative, and exclamatory
   NLPCC 2017
 
   http://tcci.ccf.org.cn/conference/2017/taskdata.php
+
+  http://tcci.ccf.org.cn/conference/2017/papers/
 
   + **Emotional Conversation Generation**
 
@@ -99,24 +82,42 @@ interrogative, declarative, imperative, and exclamatory
 
   + **Spoken Language Understanding in Task-Oriented Dialogue Systems**
 
-  + **Open Domain Question Answering**
-
-    Overview of the NLPCC 2018 Shared Task: Open Domain QA [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV51.pdf)
+    Overview of the NLPCC 2018 Shared Task: Spoken Language Understanding in Task-Oriented Dialog Systems, [paper](tcci.ccf.org.cn/conference/**2018**/papers/EV33.pdf)
 
   + **Multi-Turn Human-Computer Conversations**
 
     Overview of the NLPCC 2018 Shared Task: Multi-turn Human-Computer
     Conversations [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV52.pdf)
 
-    2nd [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV5.pdf) | [code](https://github.com/jimth001/NLPCC2018_Multi_Turn_Response_Selection)
+    1st [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV43.pdf)
 
-  + 
+    2nd [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV5.pdf)
+
+  + **Open Domain Question Answering**
+
+    Overview of the NLPCC 2018 Shared Task: Open Domain QA [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV51.pdf)
 
 ---
 
-STC (Short Text Conversation)
++ STC (Short Text Conversation)
 
-http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
+  [NTCIR-12 Task on Short Text Conversation](http://ntcir12.noahlab.com.hk/stc.htm)
+
+  http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
+
+  http://research.nii.ac.jp/ntcir/ntcir-13/index.html
+
+  Overview of the NTCIR-12 Short Text Conversation Task, [paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL.pdf) | [slides](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL_slides.pdf)
+
+  NTCIR-13 Short Text Conversation (STC)
+
+  CYUT-III Short Text Conversation System at NTCIR-13 STC-2 Task, [paper](https://pdfs.semanticscholar.org/70bf/8936344b18d1aae48e9dc88cf555dca740db.pdf)
+
+  NTCIR-14 Short Text Conversation Task (STC-3)
+
+  http://sakailab.com/ntcir14stc3/
+
+  http://research.nii.ac.jp/ntcir/ntcir-14/index.html
 
 ## Literature review
 
@@ -143,12 +144,6 @@ http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
 + Teaching Machines to Converse, Jiwei Li's Thesis 2017 [code](https://github.com/jiweil/Jiwei-Thesis)
 
   ???
-
-### Question
-
-+ Neural approaches in spoken language understanding is just for domain or intent detection and slot filling?
-
-
 
 ## Paper
 
