@@ -1,14 +1,20 @@
 How to create a proper test set?/What's the principle to create test set?
 
+评估指标：平均每轮对话时长...
+
 + task-orient
 
   1. 单场景
 
      多轮
 
+     轮数越多，说明人机对话越流畅，用户聊天意愿越强。
+
   2. 跨场景
 
      场景切换
+
+     轮数越少，说明解决问题所需时间越短。
 
 + chatbot
 
