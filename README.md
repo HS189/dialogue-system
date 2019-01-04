@@ -36,7 +36,7 @@
 
 https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30
 
-##### anaphora
+##### anaphora/pronoun resolution
 
 ##### ellipsis
 
@@ -45,6 +45,8 @@ https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-fo
 interrogative, declarative, imperative, and exclamatory
 
 #### utterance compression
+
+#### short text understanding
 
 ### natural language generation
 
@@ -65,6 +67,13 @@ interrogative, declarative, imperative, and exclamatory
   详细介绍了系统架构和关键组件，包括对话管理器、核心聊天、技能和移情计算模块。在系统设计中考虑了智商（IQ）和情商（EQ），将人机社交聊天作为马尔可夫决策过程（MDP）的决策，并优化了小冰的长期用户参与度和预期的每次会话对话（CPS）。我们展示了小冰如何动态识别人类的感受和状态，理解用户意图，并在长时间的对话中响应用户需求。
 
 - From Eliza to XiaoIce: Challenges and Opportunities with Social Chatbots, [arxiv](https://arxiv.org/abs/1801.01957)
+
+### AliMe
+
++ AliMe Assist: An Intelligent Assistant for Creating an Innovative E-commerce Experience, 2018 [arxiv](https://arxiv.org/abs/1801.05032)
+
++ AliMe Chat: A Sequence to Sequence and Rerank based Chatbot Engine, ACL 2017 [paper](http://aclweb.org/anthology/P17-2079)
+
 
 ### Replika.ai
 
@@ -270,6 +279,12 @@ interrogative, declarative, imperative, and exclamatory
 
   - [x] semantically
   - [x] natural language generation
+
+  ???
+
++ Dialogue focus tracking for zero pronoun resolution, NAACL 2015 [paper](http://aclweb.org/anthology/N/N15/N15-1052.pdf)
+
+  - [x] pronoun resolution
 
   ???
 

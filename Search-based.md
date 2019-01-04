@@ -2,7 +2,7 @@ refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zh
 
 
 
-#### 方案设计
+#### 系统架构
 
 1. 规则+模型
 
@@ -19,6 +19,14 @@ refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zh
    排序（Learning to rank）
 
    阿里小蜜 - 在re-ranking阶段就用了一个seq2seq模型，用候选句子每个词被生成的平均概率的和作为评分.
+
+
+
+[AnyQ](https://github.com/baidu/AnyQ)
+
+![AnyQ-Framework](https://github.com/baidu/AnyQ/raw/master/docs/images/AnyQ-Framework.png)
+
+
 
 
 
