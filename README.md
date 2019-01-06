@@ -18,10 +18,6 @@
 
 #### 跨场景继承
 
-#### Retrieval Based
-
-#### Knowledge Based
-
 ### natural language understanding
 
 #### personality (人格)
@@ -142,8 +138,6 @@ interrogative, declarative, imperative, and exclamatory
 
   NTCIR-13 Short Text Conversation (STC)
 
-  CYUT-III Short Text Conversation System at NTCIR-13 STC-2 Task, [paper](https://pdfs.semanticscholar.org/70bf/8936344b18d1aae48e9dc88cf555dca740db.pdf)
-
   NTCIR-14 Short Text Conversation Task (STC-3)
 
   http://sakailab.com/ntcir14stc3/
@@ -249,17 +243,7 @@ interrogative, declarative, imperative, and exclamatory
 
 ### 2017
 
-+ Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots. ACL. 2017 [code](https://github.com/MarkWuNLP/MultiTurnResponseSelection)
 
-  - [x] Retrieval Based
-
-  ???
-
-+ Question Answering on Knowledge Bases and Text using Universal Schema and Memory Networks ACL 2017 [arxiv](https://arxiv.org/abs/1704.08384) | [code](https://github.com/rajarshd/TextKBQA)
-
-  - [x] Knowledge Based
-
-  ???
 
 ---
 

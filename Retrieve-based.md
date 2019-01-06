@@ -2,7 +2,7 @@ refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zh
 
 
 
-#### 系统架构
+#### System Architecture
 
 1. 规则+模型
 
@@ -30,7 +30,7 @@ refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zh
 
 
 
-#### 数据标注
+#### Supervision Data
 
 方法一，前期用规则方法，待数据积累到一定量级，从日志中抽取用户的输入，然后粗略用一些规则和聚类算法，然后把每个类的对应question列表，两两组合去生成样本，然后人工来标注
 
@@ -84,7 +84,7 @@ Q-Q paris构建及建模的注意事项：
 
 
 
-#### evaluation
+#### Evaluation
 
 + method 1
 
