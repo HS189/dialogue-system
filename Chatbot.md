@@ -12,31 +12,6 @@ user infor
 
 
 
-#### question understanding
-
-##### Entity
-
-+ entity recognize
-
-  时间、数字、人名、地名等实体
-
-  规则方法
-
-  序列标注方法
-
-+ entity disambiguation
-
-  knowledge graph/context/user portrait
-
-##### Relation
-
-shallow parser
-
-+ relation extractive (subject 、predicate、object)
-+ semantic role labeling (SRL, predicate、argument）, , SRL is figure out who did what do whom. 
-
-
-
 #### dialogue management (context)
 
 1，上下文
@@ -73,6 +48,6 @@ shallow parser
 
 方法二需要人工穷举的地方：
 1. 槽等语义变量的词表（值）
-  （可选语义变量可有可无，所以无需穷举）
+    （可选语义变量可有可无，所以无需穷举）
 2. 槽的组合句式。n个槽，就需要有2^n个句式才能完整覆盖
 3. 句式规则。即使两个句式使用相同的槽，句式规则也不一样

@@ -85,6 +85,12 @@ interrogative, declarative, imperative, and exclamatory
 
 + NLPCC
 
+  NLPCC 2016
+
+  + Open Domain Question Answering System Based on Knowledge Base
+
+    1st [code](https://github.com/huangxiangzhou/NLPCC2016KBQA)
+
   NLPCC 2017
 
   http://tcci.ccf.org.cn/conference/2017/taskdata.php

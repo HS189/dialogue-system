@@ -103,21 +103,9 @@ Solution:
 
   sentence level encoding:对于多个句子，可以分层次做encoding。先用BiLSTM+attention做word level encoding、得到每个句子encoding的vector、按序组成sequence、再用BiLSTM+attention（这里的attention有很多花样可以玩）对这个sequence进行encoding、得到long text encoding
 
-#### Entity Match
 
-Solution:
-
-Attention
-
-Knowledge Graph based (Answer Factoid Question like who/where/when...)
-
-在QA场景，解析Q查询图谱得到A及相关信息，获得A及相关信息的embedding，再计算Q与该embedding的相似度。
 
 ### Advantage and Disadvantage
-
-representation - dssm 小冰
-
-+ 数据标注
 
 
 + 实时计算

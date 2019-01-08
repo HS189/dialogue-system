@@ -1,24 +1,25 @@
 refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zhihu.com/p/50799128)<br>[问题对语义相似度计算-参赛总结](http://www.zhuzongkui.top/2018/08/10/competition-summary/)
 
+#### key phrases
 
+- architecture, difficulty
 
 #### System Architecture
 
-1. 规则+模型
++ 检索
 
-   规则：
+  关键词匹配，主要保证准确率
 
-   关键词匹配，主要保证准确率
+  ...
 
-   模型：
++ 匹配
 
-   语义匹配，主要提高问题的召回率（Q-Q paris 语义匹配的精度不高，所以也只适用于召回场景）
+  字面匹配（lexical match），关注准确率
 
-2. 模型
+  语义匹配（semantic match），关注召回率（Q-Q paris 语义匹配的精度不高，所以也只适用于召回场景）
 
-   排序（Learning to rank）
++ 排序（learning to rank）
 
-   阿里小蜜 - 在re-ranking阶段就用了一个seq2seq模型，用候选句子每个词被生成的平均概率的和作为评分.
 
 
 
@@ -30,7 +31,9 @@ refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zh
 
 
 
-#### Supervision Data
+#### Labeled Data (数据标注)
+
+根据chatbot类型，可以选择合适的数据标注方案，任务式chatbot为适应业务变更，更适合编写相似问法，针对Q-Q pairs建模；闲聊式chatbot，针对Q-A pairs建模。
 
 方法一，前期用规则方法，待数据积累到一定量级，从日志中抽取用户的输入，然后粗略用一些规则和聚类算法，然后把每个类的对应question列表，两两组合去生成样本，然后人工来标注
 
@@ -94,11 +97,30 @@ Q-Q paris构建及建模的注意事项：
 
 
 
+#### Difficulty
+
+##### entity association
+
+Solution:
+
+Attention
+
+Knowledge Graph based (Answer Factoid Question like who/where/when...)
+
+在QA场景，解析Q查询图谱得到A及相关信息，获得A及相关信息的embedding，再计算Q与该embedding的相似度。
+
+##### logic consistency
 
 
 
+##### topic consistency
 
 
+
+##### threshold control
+
++ 排序模型的概率得分
++ 生成模型的概率得分
 
 
 
