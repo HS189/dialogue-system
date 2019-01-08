@@ -6,20 +6,19 @@ refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zh
 
 #### System Architecture
 
-+ 检索
++ 检索（粗排）
 
   关键词匹配，主要保证准确率
 
   ...
 
-+ 匹配
++ 匹配（粗排）
 
   字面匹配（lexical match），关注准确率
 
-  语义匹配（semantic match），关注召回率（Q-Q paris 语义匹配的精度不高，所以也只适用于召回场景）
+  语义匹配（semantic match），关注召回率（Q-Q pairs/Q-A pairs 语义匹配的精度不高，所以也只适用于召回场景）
 
-+ 排序（learning to rank）
-
++ 排序（learning to rank）（精排）
 
 
 
@@ -27,7 +26,9 @@ refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zh
 
 ![AnyQ-Framework](https://github.com/baidu/AnyQ/raw/master/docs/images/AnyQ-Framework.png)
 
+[IR](An information retrieval approach to short text conversation)
 
+![architecture](https://github.com/bifeng/dialogue-system/raw/master/image/retrieve_based_system_architecture.png)
 
 
 
@@ -109,18 +110,20 @@ Knowledge Graph based (Answer Factoid Question like who/where/when...)
 
 在QA场景，解析Q查询图谱得到A及相关信息，获得A及相关信息的embedding，再计算Q与该embedding的相似度。
 
-##### logic consistency
+##### logic/topic consistency
 
+Neural Discourse Modeling [paper](http://www.cs.brandeis.edu/~tet/papers/thesis_rutherford_final.pdf)
 
+Sentence Ordering and Coherence Modeling using Recurrent Neural Networks  [paper](https://yale-lily.github.io/public/aaai2018_CR.pdf)
 
-##### topic consistency
-
-
+Modeling Topical Coherence in Discourse without Supervision [paper](https://export.arxiv.org/pdf/1809.00410)
 
 ##### threshold control
 
 + 排序模型的概率得分
 + 生成模型的概率得分
+
+##### long tail problem
 
 
 

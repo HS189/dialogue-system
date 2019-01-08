@@ -32,7 +32,19 @@
 
   Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. In Proceedings of ICLR 2015 .
 
++ **evaluation**
 
+  Three graded labels: 
+
+  “0” for unsuitable
+
+  “1” means that the answer is only suitable in certain contexts
+
+  “2” indicates that the answer is suitable. 
+
+  To determine whether an answer is suitable or not, we define five evaluation
+  rules, namely “right in grammar”, “semantically related”, “well-spoken language”, “context independent” and “not overly generalized”. An answer will be labeled as suitable only if it satisfies all the rules, neutral if it satisfies the first three and breaks
+  either of the latter two, and unsuitable otherwise.
 
 
 
