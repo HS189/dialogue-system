@@ -134,21 +134,37 @@ interrogative, declarative, imperative, and exclamatory
 
 + STC (Short Text Conversation)
 
-  [NTCIR-12 Task on Short Text Conversation](http://ntcir12.noahlab.com.hk/stc.htm)
+  [NTCIR-12](http://research.nii.ac.jp/ntcir/ntcir-12/index.html) - October 31, 2015
 
-  http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm
+  +  [STC](http://ntcir12.noahlab.com.hk/stc.htm)
+  + Single-round, chatbot
+  + retrieval
+  + Overview of the NTCIR-12 Short Text Conversation Task, [paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL.pdf) | [slides](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL_slides.pdf)
 
-  http://research.nii.ac.jp/ntcir/ntcir-13/index.html
+  [NTCIR-13](http://research.nii.ac.jp/ntcir/ntcir-13/index.html) - April 30th 2017
 
-  Overview of the NTCIR-12 Short Text Conversation Task, [paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL.pdf) | [slides](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL_slides.pdf)
+  + [STC-2](http://ntcirstc.noahlab.com.hk/STC2/stc-cn.htm)
+  + Single-round, chatbot
+  + retrieval, generation
+  + Overview of the NTCIR-13 Short Text Conversation Task, [paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings13/pdf/ntcir/01-NTCIR13-OV-STC-ShangL.pdf)
+  + 1st, SG01 at the NTCIR-13 STC-2 Task [paper](https://pdfs.semanticscholar.org/27db/6405eb83709918d75b87fe80ba5acc36277f.pdf)
 
-  NTCIR-13 Short Text Conversation (STC)
+  [NTCIR-14](http://research.nii.ac.jp/ntcir/ntcir-14/index.html) - Sep 9th, 2018
 
-  NTCIR-14 Short Text Conversation Task (STC-3)
+  + [STC-3](http://sakailab.com/ntcir14stc3/)
 
-  http://sakailab.com/ntcir14stc3/
+  + Chinese Emotional Conversation Generation subtask
 
-  http://research.nii.ac.jp/ntcir/ntcir-14/index.html
+    Single-round, chatbot
+
+  + Dialogue Quality subtask
+
+    Multi-round, task-oriented chatbot
+
+  + Nugget Detection subtask
+
+    Multi-round, task-oriented chatbot
+
 
 ## Literature review
 
@@ -172,7 +188,7 @@ interrogative, declarative, imperative, and exclamatory
 
 ### 2017
 
-+ Teaching Machines to Converse, Jiwei Li's Thesis 2017 [code](https://github.com/jiweil/Jiwei-Thesis)
++ Teaching Machines to Converse, Jiwei Li's Thesis 2017 [code](https://github.com/jiweil/Jiwei-Thesis) | [thesis](https://github.com/jiweil/Jiwei-Thesis/blob/master/thesis.pdf)
 
   ???
 
