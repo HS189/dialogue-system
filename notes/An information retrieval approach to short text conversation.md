@@ -33,7 +33,9 @@
 
      ![logic consistency](https://github.com/bifeng/dialogue-system/raw/master/image/logic_consistency.png)
 
++ evaluation
 
+  Mean Average Precision (MAP) and Precision@1 (P@1).
 
 
 

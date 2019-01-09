@@ -104,7 +104,7 @@ Q-Q paris构建及建模的注意事项：
 
 Solution:
 
-Attention
+Attention Pooling
 
 Knowledge Graph based (Answer Factoid Question like who/where/when...)
 
