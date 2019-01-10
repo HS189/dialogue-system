@@ -64,6 +64,20 @@ interrogative, declarative, imperative, and exclamatory
 
 - From Eliza to XiaoIce: Challenges and Opportunities with Social Chatbots, [arxiv](https://arxiv.org/abs/1801.01957)
 
+- 全双工语音对话以及在智能硬件上的应用，微软小冰全球首席架构师及研发总监周力，2019.01.17
+
+- 微软小冰与情感计算框架，微软（亚洲）互联网工程院副院长李笛，2019.01.10
+
+- 微软小冰技术交流会，微软（亚洲）互联网工程院，2018.03.28
+
+  全双工语音交互感官（Full-duplex Voice Sense）
+
+- 研发人员
+
+  微软小冰首席科学家武威 [publications](https://www.microsoft.com/en-us/research/people/wuwei/#!publications)
+
+  微软小冰全球首席架构师及研发总监周力
+
 ### AliMe
 
 + AliMe Assist: An Intelligent Assistant for Creating an Innovative E-commerce Experience, 2018 [arxiv](https://arxiv.org/abs/1801.05032)
@@ -181,6 +195,10 @@ interrogative, declarative, imperative, and exclamatory
   - [x] neural networks
 
   ？？？
+
+- Deep Chit-Chat: Deep Learning for ChatBots, Wei Wu and Rui Yan, EMNLP 2018 [ppt](http://www.ruiyan.me/pubs/tutorial-emnlp18.pdf) | [video](https://vimeo.com/305179403)
+
+  微软小冰首席科学家武威和北京大学助理教授严睿
 
 - A Survey on Dialogue Systems: Recent Advances and New Frontiers JD [arxiv](https://arxiv.org/abs/1711.01731)
 
