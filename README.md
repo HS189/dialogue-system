@@ -64,6 +64,11 @@ interrogative, declarative, imperative, and exclamatory
 
 - From Eliza to XiaoIce: Challenges and Opportunities with Social Chatbots, [arxiv](https://arxiv.org/abs/1801.01957)
 
+### Alex
+
++ Alex Dialogue Systems Framework [github](https://github.com/UFAL-DSG/alex)
+
+
 ### AliMe
 
 + AliMe Assist: An Intelligent Assistant for Creating an Innovative E-commerce Experience, 2018 [arxiv](https://arxiv.org/abs/1801.05032)
@@ -80,6 +85,16 @@ interrogative, declarative, imperative, and exclamatory
 + https://github.com/SenticNet
 
 
+
+## Challenge
+
++ SLT 2018 Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
+
+  https://github.com/xiul-msr/e2e_dialog_challenge
+
++ 2017 NIPS Conversational Intelligence Challenge 
+
+  [1st place](https://github.com/sld/convai-bot-1337)
 
 ## Competition
 
@@ -124,7 +139,7 @@ interrogative, declarative, imperative, and exclamatory
 
     1st [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV43.pdf)
 
-    2nd [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV5.pdf)
+    2nd [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV5.pdf) | [code](https://github.com/jimth001/NLPCC2018_Multi_Turn_Response_Selection)
 
   + **Open Domain Question Answering**
 
@@ -153,7 +168,7 @@ interrogative, declarative, imperative, and exclamatory
 
   + [STC-3](http://sakailab.com/ntcir14stc3/)
 
-  + Chinese Emotional Conversation Generation subtask
+  + Chinese Emotional Conversation Generation subtask, [datasets](http://coai.cs.tsinghua.edu.cn/hml/challenge/dataset_description/)
 
     Single-round, chatbot
 
@@ -176,11 +191,19 @@ interrogative, declarative, imperative, and exclamatory
 
   ???
 
+  Neural Approaches to Conversational AI ACL 2018 [ppt](https://www.microsoft.com/en-us/research/uploads/prod/2018/07/neural-approaches-to-conversational-AI.pdf) 
+
 + [Deep Learning for Dialogue Systems](http://deepdialogue.miulab.tw/) COLING
 
   - [x] neural networks
 
-  ？？？
+  ???
+
+- [Deep Chit-Chat: Deep Learning for ChatBots](http://ruiyan.me/pubs/tutorial-emnlp18.pdf) EMNLP
+
+  - [x] neural networks
+
+  ???
 
 - A Survey on Dialogue Systems: Recent Advances and New Frontiers JD [arxiv](https://arxiv.org/abs/1711.01731)
 
@@ -196,14 +219,21 @@ interrogative, declarative, imperative, and exclamatory
 
 + Neural approaches in spoken language understanding is just for domain or intent detection and slot filling?
 
+## Paper list
+
+deeplearning-papernotes [github](https://github.com/sld/deeplearning-papernotes) active
+
+chatbots [github](https://github.com/minghui/chatbots) - product attention, such as AliMe!!!
+
+chatbots [github](https://github.com/fuzhenxin/Personal-Emotional-Stylized-Dialog) - personalized, emotional, and stylized  attention!!!
+
+chatbots [github](https://github.com/IsaacChanghau/DL-NLP-Readings/blob/master/readme/nlp/dialogue.md) - 2018
+
+chatbots [github](https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-and-Related-Research-Paper-Notes-with-Images) - 2017
+
 ## Paper
 
 ### 2019
-
-+ Response Generation by Context-aware Prototype Editing AAAI-19 [arxiv](https://arxiv.org/abs/1806.07042) | [code](https://github.com/MarkWuNLP/ResponseEdit)
-  + [x] sentence editing
-
-  ???
 
 + Learning Personalized End-to-End Goal-Oriented Dialog AAAI-19 [arxiv](https://arxiv.org/abs/1811.04604)
 

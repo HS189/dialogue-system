@@ -4,6 +4,10 @@
 
 #### key points
 
+- Labeling data for match and rank
+
+  Training data in rank: We have confirmed that the use of labeled negative instances, instead of randomly selected instances, can yield slightly better results. This is because the negative instances are collected from the top ranked candidates with several simple retrieval models, and thus they are more indicative of the difference between positive and negative instances.
+
 - System architecture
 
   ![architecture](https://github.com/bifeng/dialogue-system/raw/master/image/retrieve_based_system_architecture.png)
