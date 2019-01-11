@@ -66,7 +66,7 @@ interrogative, declarative, imperative, and exclamatory
 
 - 全双工语音对话以及在智能硬件上的应用，微软小冰全球首席架构师及研发总监周力，2019.01.17
 
-- 微软小冰与情感计算框架，微软（亚洲）互联网工程院副院长李笛，2019.01.10
+- 微软小冰与情感计算框架，微软（亚洲）互联网工程院副院长李笛，2019.01.10 [ppt and video](https://pan.baidu.com/s/1jTM0J9kqnG_Jl1cfsAUdMA)
 
 - 微软小冰技术交流会，微软（亚洲）互联网工程院，2018.03.28
 
@@ -215,7 +215,9 @@ interrogative, declarative, imperative, and exclamatory
 
 - Deep Chit-Chat: Deep Learning for ChatBots, Wei Wu and Rui Yan, EMNLP [ppt](http://www.ruiyan.me/pubs/tutorial-emnlp18.pdf) | [video](https://vimeo.com/305179403)
 
-  微软小冰首席科学家武威和北京大学助理教授严睿
+  微软小冰首席科学家武威
+
+  北京大学助理教授严睿
 
   - [x] neural networks
 

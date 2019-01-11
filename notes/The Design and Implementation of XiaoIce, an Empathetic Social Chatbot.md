@@ -78,7 +78,19 @@
 
 ##### Topic Manager
 
-???
+It consists of **a classifier** for deciding at each dialogue turn whether or not to switch topics, and **a topic retrieval engine** for recommending a new topic.
+
+When topic switching is triggered, a list of topic candidates is retrieved from the dataset using the current dialogue state as query. The new topic is chosen by a machine-learned boosted tree ranker based on the following features:
+
+Contextual relevance
+
+Freshness
+
+Personal interests
+
+Popularity
+
+Acceptance rate
 
 #### Hierarchical Decision-Making
 
@@ -94,7 +106,10 @@ To evaluate the effectiveness of XiaoIce as an AI companion to human users with 
 
 Conversation-turns Per Session (CPS) as the success metric for social chatbots. It is the average number of conversation-turns between the chatbot and the user in a conversational session. The larger the CPS is, the better engaged the social chatbot is.
 
+#### Question
 
++ 如何计算用户的情感？
++ 
 
 
 

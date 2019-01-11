@@ -4,7 +4,18 @@
 
 ##### paper
 
-+ Learning to Respond with Deep Neural Networks for Retrieval-Based Human-Computer Conversation System, SIGIR 2016 [paper](http://ruiyan.me/)
++ DocChat: An Information Retrieval Approach for Chatbot Engines Using Unstructured Documents, Nan Duan(段楠), ACL 2016 [paper](http://aclweb.org/anthology/P16-1049)
+
+  short comment: **Current retrieval-based or generation-based methods depend on existing Q-R, for many specific domains, collecting such Q-R pairs is intractable! Retrieve response from documents will not encounter this problem!**
+
+  - [x] retrieval based
+
++ Learning to Respond with Deep Neural Networks for Retrieval-Based Human-Computer Conversation System, Rui Yan(严 睿), SIGIR 2016 [paper](http://ruiyan.me/)
+
+  - [x] retrieval based
+
++ “Shall I Be Your Chat Companion?” Towards an Online Human-Computer Conversation System, Rui Yan, CIKM 2016 [paper](http://ruiyan.me/)
+
   - [x] retrieval based
 
 #### generation based
@@ -22,13 +33,15 @@
 
 - Neural Response Generation with Dynamic Vocabularies, Yu Wu, Wei Wu, AAAI18 [arxiv](https://arxiv.org/abs/1711.11191) | PaperWeekly 第 21 期「PhD Talk」
 
-  微软小冰首席科学家武威
+  - [x] generation based
 
-  北京航空航天大学—微软亚洲研究院联合培养博士生吴俣
+    微软小冰首席科学家武威
+
+    北京航空航天大学—微软亚洲研究院联合培养博士生吴俣
 
 - Topic Aware Neural Response Generation, Wei Wu, Yu Wu, 2016 [arxiv](https://arxiv.org/abs/1606.08340)
 
-- 2016 [code](https://github.com/julianser/hed-dlg-truncated)
+- Yoshua Bengio. 2016 [code](https://github.com/julianser/hed-dlg-truncated)
 
   - [x] generation based 
 
@@ -42,14 +55,6 @@
 
 
 
-#### combined(retireval/generation)
-
-##### paper
-
-+ “Shall I Be Your Chat Companion?” Towards an Online Human-Computer Conversation System, CIKM 2016 [paper](http://ruiyan.me/)
-  - [x] retrieval based
-  - [x] generation based
-
 #### knowledge based
 
 ### Multi-turn Summary
@@ -61,7 +66,7 @@
 
 #### Papers
 
-+ Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots. ACL. 2017 [arxiv](https://arxiv.org/abs/1612.01627) | [code](https://github.com/MarkWuNLP/MultiTurnResponseSelection) 
++ Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots, Yu Wu, Wei Wu, ACL. 2017 [arxiv](https://arxiv.org/abs/1612.01627) | [code](https://github.com/MarkWuNLP/MultiTurnResponseSelection) 
   + [x] retrieval based
 + The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems, SIGDIAL 2015 [arxiv](https://arxiv.org/abs/1506.08909) | [source code](https://github.com/npow/ubottu) | [code](https://github.com/dennybritz/chatbot-retrieval) | [new code](https://github.com/Irvinglove/chatbot-retrieval)
   - [x] datasets
@@ -91,19 +96,19 @@
 
   - [x] retrieval based
 
-+ Neural Responding Machine for Short-Text Conversation, ACL 2015 [arxiv](https://arxiv.org/abs/1503.02364) | [paper](http://anthology.aclweb.org/P/P15/P15-1152.pdf)
++ Neural Responding Machine for Short-Text Conversation, Hang Li, ACL 2015, [arxiv](https://arxiv.org/abs/1503.02364) | [paper](http://anthology.aclweb.org/P/P15/P15-1152.pdf)
 
   - [x] generation based
 
     first important paper using generation based method in conversation
 
-+ An information retrieval approach to short text conversation, CS 2014 [arxiv](https://arxiv.org/abs/1408.6988) | [datasets](http://data.noahlab.com.hk/conversation/) - **abstract level version**
++ An information retrieval approach to short text conversation, Hang Li, CS 2014 [arxiv](https://arxiv.org/abs/1408.6988) | [datasets](http://data.noahlab.com.hk/conversation/) - **abstract level version**
 
   - [x] retrieval based
 
     first important paper using retrieval based method in conversation
 
-+ A Dataset for Research on Short-Text Conversation. EMNLP 2013 [paper](http://www.hangli-hl.com/recent-publications.html) - **detail level version**
++ A Dataset for Research on Short-Text Conversation, Hang Li, EMNLP 2013 [paper](http://www.hangli-hl.com/recent-publications.html) - **specific level version**
 
   - [x] datasets
 
