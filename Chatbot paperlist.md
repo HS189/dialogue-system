@@ -2,7 +2,53 @@
 
 #### retrieval based
 
+##### paper
+
++ Learning to Respond with Deep Neural Networks for Retrieval-Based Human-Computer Conversation System, SIGIR 2016 [paper](http://ruiyan.me/)
+  - [x] retrieval based
+
 #### generation based
+
+##### literature review
+
+- 限定和指导 Seq2Seq 模型的生成结果
+
+##### paper
+
+- Response Generation by Context-aware Prototype Editing AAAI-19 [arxiv](https://arxiv.org/abs/1806.07042) | [code](https://github.com/MarkWuNLP/ResponseEdit)
+
+  - [x] generation based
+  - [x] sentence editing
+
+- Neural Response Generation with Dynamic Vocabularies, Yu Wu, Wei Wu, AAAI18 [arxiv](https://arxiv.org/abs/1711.11191) | PaperWeekly 第 21 期「PhD Talk」
+
+  微软小冰首席科学家武威
+
+  北京航空航天大学—微软亚洲研究院联合培养博士生吴俣
+
+- Topic Aware Neural Response Generation, Wei Wu, Yu Wu, 2016 [arxiv](https://arxiv.org/abs/1606.08340)
+
+- 2016 [code](https://github.com/julianser/hed-dlg-truncated)
+
+  - [x] generation based 
+
+    (the Hierarchical Encoder Decoder RNN model (HRED) and the Latent Variable Hierarchical Recurrent Encoder-Decoder RNN model (VHRED))
+
+- 2016 [code](https://github.com/UFAL-DSG/tgen)
+
+  - [x] generation based
+
+    A*-search based generation, seq2seq generation
+
+
+
+#### combined(retireval/generation)
+
+##### paper
+
++ “Shall I Be Your Chat Companion?” Towards an Online Human-Computer Conversation System, CIKM 2016 [paper](http://ruiyan.me/)
+  - [x] retrieval based
+  - [x] generation based
 
 #### knowledge based
 
@@ -68,33 +114,8 @@
     first important paper using retrieval based method in conversation
 
 
-### Unclassified
 
-- Response Generation by Context-aware Prototype Editing AAAI-19 [arxiv](https://arxiv.org/abs/1806.07042) | [code](https://github.com/MarkWuNLP/ResponseEdit)
 
-  - [x] generation based
-  - [x] sentence editing
-
-- “Shall I Be Your Chat Companion?” Towards an Online Human-Computer Conversation System, CIKM 2016 [paper](http://ruiyan.me/)
-
-  - [x] retrieval based
-  - [x] generation based
-
-- Learning to Respond with Deep Neural Networks for Retrieval-Based Human-Computer Conversation System, SIGIR 2016 [paper](http://ruiyan.me/)
-
-  - [x] retrieval based
-
-- 2016 [code](https://github.com/julianser/hed-dlg-truncated)
-
-  - [x] generation based 
-
-    (the Hierarchical Encoder Decoder RNN model (HRED) and the Latent Variable Hierarchical Recurrent Encoder-Decoder RNN model (VHRED))
-
-- 2016 [code](https://github.com/UFAL-DSG/tgen)
-
-  - [x] generation based
-
-    A*-search based generation, seq2seq generation
 
 
 

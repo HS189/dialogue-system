@@ -104,11 +104,21 @@ Q-Q paris构建及建模的注意事项：
 
 Solution:
 
-Attention Pooling
+1. 根据建模场景
 
-Knowledge Graph based (Answer Factoid Question like who/where/when...)
+   Q-Q pairs建模 - Question含有实体 - 预处理，固定实体、无关实体部分交给排序
 
-在QA场景，解析Q查询图谱得到A及相关信息，获得A及相关信息的embedding，再计算Q与该embedding的相似度。
+   Q-A pairs建模 - 
+
+   1）Attention Pooling
+
+   2）Answer Expansion
+
+   ​     借助知识图谱对answer进行扩展，获得更多关于answer的信息。
+
+   3）Answer含有实体 - 后处理，通过规则关联实体
+
+2. 这类问题在Question Answer场景中经常出现，可以借鉴其方法。
 
 ##### logic/topic consistency
 
