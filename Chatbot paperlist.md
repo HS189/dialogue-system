@@ -6,7 +6,7 @@
 
 + DocChat: An Information Retrieval Approach for Chatbot Engines Using Unstructured Documents, Nan Duan(段楠), ACL 2016 [paper](http://aclweb.org/anthology/P16-1049)
 
-  short comment: **Current retrieval-based or generation-based methods depend on existing Q-R, for many specific domains, collecting such Q-R pairs is intractable! Retrieve response from documents will not encounter this problem!**
+  Intuition: **Current retrieval-based or generation-based methods depend on existing Q-R, for many specific domains, collecting such Q-R pairs is intractable! Retrieve response from documents will not encounter this problem!**
 
   - [x] retrieval based
 
@@ -31,7 +31,7 @@
   - [x] generation based
   - [x] sentence editing
 
-- Neural Response Generation with Dynamic Vocabularies, Yu Wu, Wei Wu, AAAI18 [arxiv](https://arxiv.org/abs/1711.11191) | PaperWeekly 第 21 期「PhD Talk」
+- Neural Response Generation with Dynamic Vocabularies, Yu Wu, Wei Wu, AAAI18 [arxiv](https://arxiv.org/abs/1711.11191) | [paper and video](链接: https://pan.baidu.com/s/1c298bJi 密码: 6zhj)
 
   - [x] generation based
 
@@ -56,6 +56,20 @@
 
 
 #### knowledge based
+
+#### combined
+
+##### retrieval/generation
+
++ Learning Matching Models with Weak Supervision for Response Selection in Retrieval-based Chatbots, Yu Wu, Wei Wu, ACL 2018 [arxiv](https://arxiv.org/abs/1805.02333)
+
+  Intuition: **a common practice of the negative sampling strategy is randomly sampled ones as negative examples. This strategy, however, oversimplifies the learning problem, as most of the randomly sampled responses are either far from the semantics of the messages or the contexts, or they are false negatives which pollute the training data as noise. Using a sequence-to-sequence architecture (Seq2Seq) model as a weak annotator to judge the matching degree of unlabeled pairs, then guide the matching model learning more harder examples and makes the model more robust.**
+
+  - [x] retrieval based
+
+  - [x] generation based
+
+    The generation model as the evaluator/annotator of sentence matching.
 
 ### Multi-turn Summary
 

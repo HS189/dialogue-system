@@ -1,4 +1,4 @@
-## dialogue-system
+dialogue-system
 
 ## Methods
 
@@ -199,45 +199,32 @@ interrogative, declarative, imperative, and exclamatory
 
 ### 2018
 
-+ Neural Approaches to Conversational AI, [arxiv](https://arxiv.org/abs/1809.08267)
-
-  - [x] neural networks
-
-  ???
-
-  Neural Approaches to Conversational AI ACL 2018 [ppt](https://www.microsoft.com/en-us/research/uploads/prod/2018/07/neural-approaches-to-conversational-AI.pdf) 
-
-+ [Deep Learning for Dialogue Systems](http://deepdialogue.miulab.tw/) COLING
-
-  - [x] neural networks
-
-  ???
-
-- Deep Chit-Chat: Deep Learning for ChatBots, Wei Wu and Rui Yan, EMNLP [ppt](http://www.ruiyan.me/pubs/tutorial-emnlp18.pdf) | [video](https://vimeo.com/305179403)
++ Deep Chit-Chat: Deep Learning for ChatBots, Wei Wu and Rui Yan, EMNLP [ppt](http://www.ruiyan.me/pubs/tutorial-emnlp18.pdf) | [video](https://vimeo.com/305179403)
 
   微软小冰首席科学家武威
 
   北京大学助理教授严睿
 
-  - [x] neural networks
++ Neural Approaches to Conversational AI, Jianfeng Gao, [arxiv](https://arxiv.org/abs/1809.08267)
 
-  ???
+  Neural Approaches to Conversational AI ACL 2018 [ppt](https://www.microsoft.com/en-us/research/uploads/prod/2018/07/neural-approaches-to-conversational-AI.pdf) 
 
-- A Survey on Dialogue Systems: Recent Advances and New Frontiers JD [arxiv](https://arxiv.org/abs/1711.01731)
+- A Survey on Dialogue Systems: Recent Advances and New Frontiers, JD [arxiv](https://arxiv.org/abs/1711.01731)
 
-  ???
+- Deep Learning for Dialogue Systems, COLING [site](http://deepdialogue.miulab.tw/) 
 
 ### 2017
 
 + Teaching Machines to Converse, Jiwei Li's Thesis 2017 [code](https://github.com/jiweil/Jiwei-Thesis) | [thesis](https://github.com/jiweil/Jiwei-Thesis/blob/master/thesis.pdf)
 
-  ???
 
 ### Question
 
 + Neural approaches in spoken language understanding is just for domain or intent detection and slot filling?
 
 ## Paper list
+
+Neural Network Dialog System Papers [github](https://github.com/snakeztc/NeuralDialogPapers) active
 
 deeplearning-papernotes [github](https://github.com/sld/deeplearning-papernotes) active
 
