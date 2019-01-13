@@ -26,11 +26,13 @@ refer:<br>[智能客服FAQ问答任务的技术选型探讨](https://zhuanlan.zh
 
 ![AnyQ-Framework](https://github.com/baidu/AnyQ/raw/master/docs/images/AnyQ-Framework.png)
 
-[IR](An information retrieval approach to short text conversation)
+[System Architecture for Single-turn](Deep Chit-Chat: Deep Learning for ChatBots)
 
-![architecture](https://github.com/bifeng/dialogue-system/raw/master/image/retrieve_based_system_architecture.png)
+![architecture](https://github.com/bifeng/dialogue-system/raw/master/image/system_architecture_single_turn.png)
 
+[System Architecture for Multi-turn](Deep Chit-Chat: Deep Learning for ChatBots)
 
+![architecture](https://github.com/bifeng/dialogue-system/raw/master/image/system_architecture_multi_turn.png)
 
 #### Labeled Data (数据标注)
 

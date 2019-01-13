@@ -75,8 +75,13 @@
 
 #### key phrases
 
-- ..
 - TREC, NLPCC
+
+#### framework
+
+Framework I: embedding -> matching
+
+Framework II: representation -> matching -> aggregation
 
 #### Papers
 
@@ -93,6 +98,14 @@
 #### key phrases
 
 - STC (Short Text Conversation)
+
+#### framework
+
+Framework I: matching with sentence embeddings
+
+Framework II: matching with question-response interaction
+
+Extension: matching with external knowledge
 
 #### Papers
 
