@@ -58,11 +58,11 @@ interrogative, declarative, imperative, and exclamatory
 
 ### 微软 小冰
 
-- The Design and Implementation of XiaoIce, an Empathetic Social Chatbot, [arxiv](https://arxiv.org/pdf/1812.08989.pdf)
+- The Design and Implementation of XiaoIce, an Empathetic Social Chatbot, 2018.12, [arxiv](https://arxiv.org/pdf/1812.08989.pdf)
 
   详细介绍了系统架构和关键组件，包括对话管理器、核心聊天、技能和移情计算模块。在系统设计中考虑了智商（IQ）和情商（EQ），将人机社交聊天作为马尔可夫决策过程（MDP）的决策，并优化了小冰的长期用户参与度和预期的每次会话对话（CPS）。我们展示了小冰如何动态识别人类的感受和状态，理解用户意图，并在长时间的对话中响应用户需求。
 
-- From Eliza to XiaoIce: Challenges and Opportunities with Social Chatbots, [arxiv](https://arxiv.org/abs/1801.01957)
+- From Eliza to XiaoIce: Challenges and Opportunities with Social Chatbots, 2018.01, [arxiv](https://arxiv.org/abs/1801.01957)
 
 - 全双工语音对话以及在智能硬件上的应用，微软小冰全球首席架构师及研发总监周力，2019.01.17
 
@@ -73,6 +73,8 @@ interrogative, declarative, imperative, and exclamatory
   全双工语音交互感官（Full-duplex Voice Sense）
 
 - 研发人员
+
+  微软亚洲研究院 [people](https://www.microsoft.com/en-us/research/group/natural-language-computing/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fgroups%2Fnlc%2F)
 
   微软小冰首席科学家武威 [publications](https://www.microsoft.com/en-us/research/people/wuwei/#!publications)
 

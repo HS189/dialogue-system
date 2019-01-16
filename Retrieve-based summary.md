@@ -172,7 +172,7 @@ Modeling Topical Coherence in Discourse without Supervision [paper](https://expo
 
 (This question is from [bert as service](https://github.com/hanxiao/bert-as-service).)
 
-**A:** A decent representation for a downstream task doesn't mean that it will be meaningful in terms of cosine distance. Since cosine distance is a linear space where all dimensions are weighted equally. if you want to use cosine distance anyway, then please focus on the rank not the absolute value. Namely, do not use:
+**A:** A decent representation for a downstream task doesn't mean that it will be meaningful in terms of cosine distance. Since cosine distance is <u>a linear space</u> where all dimensions are weighted equally. if you want to use cosine distance anyway, then please focus on the rank not the absolute value. Namely, do not use:
 
 ```
 if cosine(A, B) > 0.9, then A and B are similar
