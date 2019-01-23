@@ -4,9 +4,19 @@
 
 #### key points
 
-- Labeling data for match and rank
+- Labeling strategy
 
-  Training data in rank: We have confirmed that the use of labeled negative instances, instead of randomly selected instances, can yield slightly better results. This is because the negative instances are collected from the top ranked candidates with several simple retrieval models, and thus they are more indicative of the difference between positive and negative instances.
+  We employ a pooling strategy widely used in information retrieval for getting the instances to label (Voorhees, 2002). More specifically, for a given query, we use each of three basic retrieval models to select top 10 comments, and merge them to form a much reduced candidate set with size $\le​$ 30. Then we assign the comments in the reduced candidate set into “suitable” and “unsuitable” categories.
+
+  Finally, we manually label 422 queries and their associated comments, about 30 comments for each post. Note that (1) the labeling is only on a small subset of the 38,016 posts, and (2) for each selected (query) post, the labeled comments are not originally given to it.
+
+  paper:
+
+  Ellen M Voorhees. 2002. The philosophy of information retrieval evaluation. In Evaluation of cross-language information retrieval systems, pages 355-370, Springer.
+
+- Labeling data for Training and Testing
+
+  Training: We have confirmed that the use of labeled negative instances, instead of randomly selected instances, can yield slightly better results. This is because the negative instances are collected from the top ranked candidates with several simple retrieval models, and thus they are more indicative of the difference between positive and negative instances.
 
 - System architecture
 
@@ -38,7 +48,15 @@
 
   linear RankingSVM
 
-+ Failed Issues
++ Techniques
+
+  All the results reported below are based on 5-fold cross-validation on the 422 queries. We also perform a significance test using a paired t-test with a significant level of 0.05.
+
++ evaluation
+
+  Mean Average Precision (MAP) and Precision@1 (P@1).
+
+- Failed Issues
 
   1. entity association
 
@@ -48,10 +66,11 @@
 
      ![logic consistency](https://github.com/bifeng/dialogue-system/raw/master/image/logic_consistency.png)
 
-+ evaluation
+- 
 
-  Mean Average Precision (MAP) and Precision@1 (P@1).
+#### question
 
-
+- how to select a proper query sets to query for the calculate of query-post match features? 
+- how to training the rank model and avoid over-fitting?
 
 

@@ -15,6 +15,10 @@
 
 ### Paper
 
+- Strong Baselines for Simple Question Answering over Knowledge Graphs with and without Neural Networks, NAACL 2018, [paper](http://aclweb.org/anthology/N18-2047) | [code](https://github.com/castorini/BuboQA)
+
+  - [x]  Knowledge Based
+
 - Question Answering on Knowledge Bases and Text using Universal Schema and Memory Networks ACL 2017 [arxiv](https://arxiv.org/abs/1704.08384) | [code](https://github.com/rajarshd/TextKBQA)
 
   - [x] Knowledge Based
