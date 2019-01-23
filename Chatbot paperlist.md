@@ -22,8 +22,6 @@
 
 ##### literature review
 
-- 限定和指导 Seq2Seq 模型的生成结果
-
 ##### paper
 
 - Response Generation by Context-aware Prototype Editing AAAI-19 [arxiv](https://arxiv.org/abs/1806.07042) | [code](https://github.com/MarkWuNLP/ResponseEdit)
