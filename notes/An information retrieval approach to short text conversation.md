@@ -71,6 +71,17 @@
 #### question
 
 - how to select a proper query sets to query for the calculate of query-post match features? 
+
+  old retrieval methods - the top-10 not include the original post
+
+  current retrieval methods - the top-1 is the original post
+
+  how to improve the precision on the top of it?
+
+  -- retrieval bad case - long tail problem?
+
+  -- retrieval system how to handle it?
+
 - how to training the rank model and avoid over-fitting?
 
 

@@ -55,8 +55,6 @@
 
 
 
-#### knowledge based
-
 #### combined
 
 ##### retrieval/generation
