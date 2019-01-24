@@ -8,7 +8,7 @@
 
   We employ a pooling strategy widely used in information retrieval for getting the instances to label (Voorhees, 2002). More specifically, for a given query, we use each of three basic retrieval models to select top 10 comments, and merge them to form a much reduced candidate set with size $\le​$ 30. Then we assign the comments in the reduced candidate set into “suitable” and “unsuitable” categories.
 
-  Finally, we manually label 422 queries and their associated comments, about 30 comments for each post. Note that (1) the labeling is only on a small subset of the 38,016 posts, and (2) for each selected (query) post, the labeled comments are not originally given to it.
+  Finally, we manually label 422 queries and their associated comments, about 30 comments for each post. Note that (1) the labeling is only on a small subset of the 38,016 posts, and (2) <u>for each selected (query) post, the labeled comments are not originally given to it</u>.
 
   paper:
 
@@ -70,18 +70,25 @@
 
 #### question
 
-- how to select a proper query sets to query for the calculate of query-post match features? 
+- how to select a proper query sets to construct labeled training data (the calculate of query-post/query-response match features)? 
 
-  old retrieval methods - the top-10 not include the original post
+  `for each selected (query) post, the labeled comments are not originally given to it` - In this way, you need label all the comments. 
 
-  current retrieval methods - the top-1 is the original post
+  You can calculate the query-post/query-response match features...
 
-  how to improve the precision on the top of it?
 
-  -- retrieval bad case - long tail problem?
+
+  `for each selected (query) post, the labeled comments are originally given to it` - In this way, the only positive label comment is the originally given by the (query) post, all other comments viewed as negative label.
+
+  Using this weakly labeled data, you can't  incorporate the query-post features in the models!
+
+- how to training the rank model and avoid over-fitting?
+
+- there is a system get highly recall value 90% at retrieval stage, how to improve the precision on the top of it?
+
+  -- analysis the bad case at retrieval stage, is it a long tail problem (not every topic is covered by corpus)?
 
   -- retrieval system how to handle it?
 
-- how to training the rank model and avoid over-fitting?
 
 
