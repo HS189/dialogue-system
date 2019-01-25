@@ -37,9 +37,13 @@
 
     北京航空航天大学—微软亚洲研究院联合培养博士生吴俣
 
-- Topic Aware Neural Response Generation, Wei Wu, Yu Wu, 2016 [arxiv](https://arxiv.org/abs/1606.08340)
+- Topic Aware Neural Response Generation, Wei Wu, Yu Wu, 2016 [arxiv](https://arxiv.org/abs/1606.08340) 
 
-- Yoshua Bengio. 2016 [code](https://github.com/julianser/hed-dlg-truncated)
+- A Hierarchical Latent Variable Encoder-Decoder Model for Generating Dialogues. Iulian Vlad Serban, Alessandro Sordoni, Ryan Lowe, Laurent Charlin, Joelle Pineau, Aaron Courville, Yoshua Bengio. 2016. [arxiv](http://arxiv.org/abs/1605.06069) 
+
+  Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models. Iulian V. Serban, Alessandro Sordoni, Yoshua Bengio, Aaron Courville, Joelle Pineau. 2016. AAAI. [arxiv](http://arxiv.org/abs/1507.04808).
+
+  [code](https://github.com/julianser/hed-dlg-truncated)
 
   - [x] generation based 
 
@@ -50,6 +54,8 @@
   - [x] generation based
 
     A*-search based generation, seq2seq generation
+
+- A Neural Network Approach to Context-Sensitive Generation of Conversational Responses, NAACL-HLT, 2015 [arxiv](https://arxiv.org/abs/1506.06714) 
 
 
 
