@@ -11,8 +11,20 @@
 
 #### peoples
 
-- Nan DUAN (段楠) [microsoft](https://www.microsoft.com/en-us/research/people/nanduan/#!books-publications)
+- Nan DUAN (段楠) [microsoft](https://www.microsoft.com/en-us/research/people/nanduan/#!books-publications) 
 - 
+
+
+
+
+
+#### System
+
++ ADAM - A Question Answering System. Inspired from IBM Watson <http://www.shirishkadam.com/>
+
+  https://github.com/5hirish/adam_qas
+
++ 
 
 
 

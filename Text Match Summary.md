@@ -56,11 +56,21 @@
 
 ###### representation
 
-char/word vec
+1. char/word vec
 
-pre-trained vec
+2. pre-trained vec
 
-combined
+
+
+   Seq2Seq encoder
+
+   Seq2Seq模型本身是一个生成模型，但是我们把它用来计算句子之间的相似度，我们把它encoder和attention的结果和不同的候选做loss计算，把loss作为一种度量结果，Loss越小代表输入和候选越接近。
+
+3. combined
+
+4. ...
+
+
 
 ###### similarity
 
@@ -71,6 +81,8 @@ combined
   a) 马氏距离、即学习一个矩阵M、使sim(v1, v2)=v1$*$M$*$v2 、它就优化了上述通用距离度量公式的不妥之处（M的对角线元素相当于给各维加权、非对角线元素相当于考虑了维度交叉）；
 
   b) 用DNN去学距离，相对于马氏距离DNN还多学习了非线性的距离关系，它的输入是[v1*v2, |v1-v2|...]，注意它的输入需要考虑“对称性”、因为输入的text是pair的、是无序的、此次输入[text1, text2]、下次就可能是[text2, text1]、所以v1-v2取了绝对值，输出范围就是0到1、典型的二分类。
+
++ 
 
 
 ##### Interaction-based
