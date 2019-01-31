@@ -1,5 +1,3 @@
-dialogue-system
-
 ## Methods
 
 ### linguistically/semantically
@@ -271,7 +269,7 @@ interrogative, declarative, imperative, and exclamatory
 
 + Neural approaches in spoken language understanding is just for domain or intent detection and slot filling?
 
-## Paper list
+## Paper notes
 
 Neural Network Dialog System Papers [github](https://github.com/snakeztc/NeuralDialogPapers) active
 
