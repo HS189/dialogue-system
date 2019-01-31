@@ -104,15 +104,58 @@ interrogative, declarative, imperative, and exclamatory
 
 ## Challenge
 
++ DSTC7 Dialog System Technology Challenges
+
+  http://workshop.colips.org/dstc7/call.html
+
+  <details><summary>Task</summary>
+      Sentence Selection: goal-oriented multi-turn dialog<br>
+      Sentence Generation<br>
+      Audio Visual Scene-aware dialog (AVSD)
+  </details>
+
+  Workshop (paperlist) - http://workshop.colips.org/dstc7/workshop.html
+
+  Sentence Selection:
+
+  1st place - [paper](http://workshop.colips.org/dstc7/papers/07.pdf) | [slide](http://workshop.colips.org/dstc7/papers/DSTC7-Track1-QianChen.pdf) 
+
 + SLT 2018 Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
 
   https://github.com/xiul-msr/e2e_dialog_challenge
 
-+ 2017 NIPS Conversational Intelligence Challenge 
+  <details><summary>Task</summary>
+      Movie-Ticket Booking<br>
+      Restaurant Reservation<br>
+      Taxi Ordering<br>
+  </details>
 
-  [1st place](https://github.com/sld/convai-bot-1337)
++ ConvAI
+
+  https://github.com/DeepPavlov/convai
+
+  ConvAI2
+
+  Task - Persona-Chat
+
+  Personalizing Dialogue Agents: I have a dog, do you have pets too?, 2018 [arxiv](https://arxiv.org/abs/1801.07243) 
+
+  the winner has been announced: ["Lost in Conversation"](https://github.com/atselousov/transformer_chatbot)! See the presentation slides for all details: [intro](https://github.com/DeepPavlov/convai/blob/master/NeurIPSConvAI2-IntroPres.pptx), [results](https://github.com/DeepPavlov/convai/blob/master/NeurIPSConvAI2ResultsPres.pptx), [top team presentations](https://github.com/DeepPavlov/convai/blob/master/NeurIPSParticipantSlides.pptx), and [future work](https://github.com/DeepPavlov/convai/blob/master/NeurIPSConvAI2FutureWork.pptx).
+
+
+
+  ConvAI1
+
+  http://convai.io/2017/
+
+  Task - The aim of the competition was to implement a bot capable of conversing with humans based on a given passage of text
+
+  [1st place](https://github.com/sld/convai-bot-1337) 
 
 ## Competition
+
++ TREC
+
 
 + NLPCC
 
@@ -168,9 +211,9 @@ interrogative, declarative, imperative, and exclamatory
   [NTCIR-12](http://research.nii.ac.jp/ntcir/ntcir-12/index.html) - October 31, 2015
 
   +  [STC](http://ntcir12.noahlab.com.hk/stc.htm)
-  + Single-round, chatbot
-  + retrieval
-  + Overview of the NTCIR-12 Short Text Conversation Task, [paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL.pdf) | [slides](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL_slides.pdf)
+  +  Single-round, chatbot
+  +  retrieval
+  +  Overview of the NTCIR-12 Short Text Conversation Task, [paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL.pdf) | [slides](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/OVERVIEW/01-NTCIR12-OV-STC-ShangL_slides.pdf) 
 
   [NTCIR-13](http://research.nii.ac.jp/ntcir/ntcir-13/index.html) - April 30th 2017
 
@@ -244,136 +287,50 @@ chatbots [github](https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-an
 
 ## Paper
 
-### 2019
+### personality
 
-+ Learning Personalized End-to-End Goal-Oriented Dialog AAAI-19 [arxiv](https://arxiv.org/abs/1811.04604)
+- Learning Personalized End-to-End Goal-Oriented Dialog, [Liangchen Luo](https://www.luolc.com/), Wenhao Huang, Qi Zeng, Zaiqing Nie, Xu Sun, AAAI-19 [arxiv](https://arxiv.org/abs/1811.04604) 
 
-  - [x] personalized
+  https://mp.weixin.qq.com/s/AqzdRoXthrUFUOqSNwgfqQ
 
-  ???
+- Assigning personality/identity to a chatting machine for coherent conversation generation, Qiao Qian, Minlie Huang, Haizhou Zhao, Jingfang Xu, Xiaoyan Zhu, IJCAI 2018 [arxiv](https://arxiv.org/abs/1706.02861) | [code](https://github.com/qianqiao/AssignPersonality) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) 
+
+  personality, includes name, gender, age, location, weight, constellation, hobby, idol, speciality, employer - extracted from Weibo Dataset with regular expression patterns.
+
+  为了可控性，可以直接用正则表达式解决！
+
+### sentimental
 
 
-### 2018
-
-
-- Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](http://coai.cs.tsinghua.edu.cn/publications/)
-
-  - [x] natural language generation
-  - [x] sentimental
-
-  ???
-
-- Commonsense for Generative Multi-Hop Question Answering Tasks EMNLP [arxiv](https://export.arxiv.org/abs/1809.06309) | [code](https://github.com/yicheng-w/CommonSenseMultiHopQA)
-
-  - [x] multi-hop
-
-  ???
-
-- Building an Ellipsis-aware Chinese Dependency Treebank for Web Text [arxiv](https://arxiv.org/abs/1801.06613) | [code](https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis)
-
-  - [x] ellipses 
-
-- Assigning personality/identity to a chatting machine for coherent conversation generation, IJCAI 2018 [arxiv](https://arxiv.org/abs/1706.02861) | [code](https://github.com/qianqiao/AssignPersonality) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/)
-
-  - [x] personality
-
-    personality, includes name, gender, age, location, weight, constellation, hobby, idol, speciality, employer - extracted from Weibo Dataset with regular expression patterns.
-
-    为了可控性，可以直接用正则表达式解决！
-
-  ???
-
-- Generating Informative Responses with Controlled Sentence Function. ACL 2018 [paper](http://aclweb.org/anthology/P18-1139) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](https://github.com/kepei1106/SentenceFunction)
-
-  - [x]  sentence function
-
+- Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory, Hao Zhou, Minlie Huang, Tianyang Zhang, Xiaoyan Zhu, Bing Liu, AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](http://coai.cs.tsinghua.edu.cn/publications/)
 
   - [x] natural language generation
 
-  ???
 
-- Sequence-to-sequence Data Augmentation for Dialogue Language Understanding.  COLING 2018 [code](https://github.com/AtmaHou/Seq2SeqDataAugmentationForLU)
+### ellipses 
 
-  - [x] data augmentation
+
+- Building an Ellipsis-aware Chinese Dependency Treebank for Web Text, Xuancheng Ren, Xu Sun, Ji Wen, Bingzhen Wei, Weidong Zhan, Zhiyuan Zhang, 2018, [arxiv](https://arxiv.org/abs/1801.06613) | [code](https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis) 
+
+### data augmentation
+
+- Sequence-to-sequence Data Augmentation for Dialogue Language Understanding. Yutai Hou, Yijia Liu, Wanxiang Che, Ting Liu, COLING 2018 [code](https://github.com/AtmaHou/Seq2SeqDataAugmentationForLU)
+
+  - [x] a sequence-to-sequence generation based data augmentation framework
 
     用户输入多样性拓展生成
 
-    ???
 
-- 
+### natural language generation
 
----
-
-### 2017
-
-
-
----
-
-
-
-
-
-### 2015
-
-+ Ground Truth for Grammatical Error Correction Metrics  ACL 2015 [code](https://github.com/cnap/gec-ranking)
-
-  - [x] grammar error detection
-
-  ???
-
-+ Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745)
-
++ Generating Informative Responses with Controlled Sentence Function, 柯沛、关健、黄民烈、朱小燕. ACL 2018 [paper](http://aclweb.org/anthology/P18-1139) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](https://github.com/kepei1106/SentenceFunction) 
+  - [x] sentence function
++ Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, Tsung-Hsien Wen, Milica Gasic, Nikola Mrksic, Pei-Hao Su, David Vandyke, Steve Young, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745) | [code](https://github.com/hit-computer/SC-LSTM) 
   - [x] semantically
-  - [x] natural language generation
-
-  ???
-
-+ Dialogue focus tracking for zero pronoun resolution, NAACL 2015 [paper](http://aclweb.org/anthology/N/N15/N15-1052.pdf)
-
-  - [x] pronoun resolution
-
-  ???
 
 
 
 ---
-
-### 2012
-
-+ A Two-step Approach to Sentence Compression of Spoken Utterances ACL 2012 [paper](http://aclweb.org/anthology//P/P12/P12-2033.pdf)
-  + [x] utterance compression
-
-  ???
-
-
-
----
-
-### 2010
-
-+ Using spoken utterance compression for meeting summarization: a pilot study, SLT 2010 [paper]()
-
-  - [x] utterance compression
-
-  ???
-
-
-
----
-
-
-
-### 2005
-
-+ Question Answering Passage Retrieval Using Dependency Relations. [paper](https://www.comp.nus.edu.sg/~kanmy/papers/f66-cui.pdf) | [slides](https://www.comp.nus.edu.sg/~kanmy/papers/deppass_draft_v0.5.htm)
-  - [x] dependency parsing
-
-
-
----
-
-
 
 
 

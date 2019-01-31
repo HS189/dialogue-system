@@ -168,17 +168,21 @@ Modeling Topical Coherence in Discourse without Supervision [paper](https://expo
 
 #### QA
 
-**Q:** The cosine similarity of two sentence vectors is unreasonably high (e.g. always > 0.8), what's wrong?
++ how to filter the unrelated response for the ranking?
 
-(This question is from [bert as service](https://github.com/hanxiao/bert-as-service).)
+  define a threshold at the match stage ?
 
-**A:** A decent representation for a downstream task doesn't mean that it will be meaningful in terms of cosine distance. Since cosine distance is <u>a linear space</u> where all dimensions are weighted equally. if you want to use cosine distance anyway, then please focus on the rank not the absolute value. Namely, do not use:
++ The cosine similarity of two sentence vectors is unreasonably high (e.g. always > 0.8), what's wrong?
+
+  (This question is from [bert as service](https://github.com/hanxiao/bert-as-service).)
+
+  A decent representation for a downstream task doesn't mean that it will be meaningful in terms of cosine distance. Since cosine distance is <u>a linear space</u> where all dimensions are weighted equally. if you want to use cosine distance anyway, then please focus on the rank not the absolute value. Namely, do not use:
 
 ```
 if cosine(A, B) > 0.9, then A and B are similar
 ```
 
-Please consider the following instead:
+​	Please consider the following instead:
 
 ```
 if cosine(A, B) > cosine(A, C), then A is more similar to B than C.
