@@ -1,3 +1,7 @@
+### datasets
+
++ A Survey of Available Corpora for Building Data-Driven Dialogue Systems, Iulian Vlad Serban, Ryan Lowe, Peter Henderson, Laurent Charlin, Joelle Pineau, 2017 [arxiv](https://arxiv.org/abs/1512.05742) 
+
 ### models
 
 #### retrieval based

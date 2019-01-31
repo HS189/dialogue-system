@@ -1,3 +1,9 @@
+### paper
+
++ How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation, Chia-Wei Liu, Ryan Lowe, Iulian V. Serban, Michael Noseworthy, Laurent Charlin, Joelle Pineau, EMNLP 2016 [arxiv](https://arxiv.org/abs/1603.08023) 
+
+
+
 How to create a proper test set?/What's the principle to create test set?
 
 评估指标：平均每轮对话时长...
