@@ -321,12 +321,13 @@ chatbots [github](https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-an
     用户输入多样性拓展生成
 
 
-### natural language generation
+### sentence function
 
 + Generating Informative Responses with Controlled Sentence Function, 柯沛、关健、黄民烈、朱小燕. ACL 2018 [paper](http://aclweb.org/anthology/P18-1139) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](https://github.com/kepei1106/SentenceFunction) 
-  - [x] sentence function
+
+### semantically
+
 + Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, Tsung-Hsien Wen, Milica Gasic, Nikola Mrksic, Pei-Hao Su, David Vandyke, Steve Young, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745) | [code](https://github.com/hit-computer/SC-LSTM) 
-  - [x] semantically
 
 
 
