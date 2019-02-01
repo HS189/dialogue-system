@@ -102,15 +102,55 @@ interrogative, declarative, imperative, and exclamatory
 
 ## Challenge
 
-+ DSTC7 Dialog System Technology Challenges
++ DSTC (Dialog State/System Tracking Challenge)
+
+  DSTC1
+
+  Domain - Bus Route
+
+  Task - Evaluation Metrics
+
+  DSTC2
+
+  Domain - Restaurant
+
+  Task - User Goal Changes
+
+  DSTC3
+
+  Domain - Tourist Information
+
+  Task - Domain Adaptation
+
+  DSTC4
+
+  Domain - Tourist Information
+
+  Task - Human Conversation
+
+  DSTC5
+
+  Domain - Tourist Information
+
+  Task - Language Adaptation
+
+  DSTC6
+
+  <details><summary>Track</summary>
+      End-to-End Goal-Oriented Dialog Learning<br>
+      End-to-End Conversation Modeling<br>
+      Dialogue Breakdown Detection
+
+  DSTC7
 
   http://workshop.colips.org/dstc7/call.html
 
-  <details><summary>Task</summary>
+  <details><summary>Track</summary>
       Sentence Selection: goal-oriented multi-turn dialog<br>
       Sentence Generation<br>
       Audio Visual Scene-aware dialog (AVSD)
   </details>
+
 
   Workshop (paperlist) - http://workshop.colips.org/dstc7/workshop.html
 
@@ -118,7 +158,7 @@ interrogative, declarative, imperative, and exclamatory
 
   1st place - [paper](http://workshop.colips.org/dstc7/papers/07.pdf) | [slide](http://workshop.colips.org/dstc7/papers/DSTC7-Track1-QianChen.pdf) 
 
-+ SLT 2018 Special Session - Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
++ SLT 2018 Microsoft Dialogue Challenge: Building End-to-End Task-Completion Dialogue Systems
 
   https://github.com/xiul-msr/e2e_dialog_challenge
 
@@ -128,27 +168,21 @@ interrogative, declarative, imperative, and exclamatory
       Taxi Ordering<br>
   </details>
 
-+ ConvAI
++ ConvAI (The Conversation Intelligence Challenge)
 
   https://github.com/DeepPavlov/convai
 
   ConvAI2
 
-  Task - Persona-Chat
+  Track - Persona-Chat
 
   Personalizing Dialogue Agents: I have a dog, do you have pets too?, 2018 [arxiv](https://arxiv.org/abs/1801.07243) 
 
   the winner has been announced: ["Lost in Conversation"](https://github.com/atselousov/transformer_chatbot)! See the presentation slides for all details: [intro](https://github.com/DeepPavlov/convai/blob/master/NeurIPSConvAI2-IntroPres.pptx), [results](https://github.com/DeepPavlov/convai/blob/master/NeurIPSConvAI2ResultsPres.pptx), [top team presentations](https://github.com/DeepPavlov/convai/blob/master/NeurIPSParticipantSlides.pptx), and [future work](https://github.com/DeepPavlov/convai/blob/master/NeurIPSConvAI2FutureWork.pptx).
 
+  	ConvAI1<br>	http://convai.io/2017/<br>	Track - The aim of the competition was to implement a bot capable of conversing with humans based on a given passage of text.<br>	[1st place](https://github.com/sld/convai-bot-1337) 
 
 
-  ConvAI1
-
-  http://convai.io/2017/
-
-  Task - The aim of the competition was to implement a bot capable of conversing with humans based on a given passage of text
-
-  [1st place](https://github.com/sld/convai-bot-1337) 
 
 ## Competition
 
@@ -256,9 +290,12 @@ interrogative, declarative, imperative, and exclamatory
 
   :star::star::star::star::star:
 
-- A Survey on Dialogue Systems: Recent Advances and New Frontiers, JD [arxiv](https://arxiv.org/abs/1711.01731)
+- Deep Learning for Dialogue Systems, COLING 2018 [site](https://sites.google.com/view/deepdial/) | [paper](http://aclweb.org/anthology/C18-3006) | [slide](https://www.csie.ntu.edu.tw/~yvchen/doc/COLING18_Tutorial.pdf) 
 
-- Deep Learning for Dialogue Systems, COLING [site](http://deepdialogue.miulab.tw/) 
+  :star::star::star::star::star:
+
+- A Survey on Dialogue Systems: Recent Advances and New Frontiers, JD [arxiv](https://arxiv.org/abs/1711.01731) 
+
 
 ### 2017
 
