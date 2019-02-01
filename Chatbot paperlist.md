@@ -90,7 +90,8 @@ Framework II: representation -> matching -> aggregation
 
 + Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots, Yu Wu, Wei Wu, Chen Xing, Ming Zhou, Zhoujun Li, ACL. 2017 [arxiv](https://arxiv.org/abs/1612.01627) | [code](https://github.com/MarkWuNLP/MultiTurnResponseSelection) 
   + [x] retrieval based
-+ The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems, Ryan Lowe, Nissan Pow, Iulian Serban, Joelle Pineau, SIGDIAL 2015 [arxiv](https://arxiv.org/abs/1506.08909) | [source code](https://github.com/npow/ubottu) | [code](https://github.com/dennybritz/chatbot-retrieval) | [new code](https://github.com/Irvinglove/chatbot-retrieval)
++ Improved Deep Learning Baselines for Ubuntu Corpus Dialogs, NIPS 2015 [arxiv](https://arxiv.org/abs/1510.03753) | [blog](https://blog.csdn.net/Irving_zhang/article/details/78788929) | [blog](https://blog.csdn.net/qq_32284189/article/details/82350974) 
++ The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems, Ryan Lowe, Nissan Pow, Iulian Serban, Joelle Pineau, SIGDIAL 2015 [arxiv](https://arxiv.org/abs/1506.08909) | [source code](https://github.com/npow/ubottu) | [code](https://github.com/dennybritz/chatbot-retrieval) | [new code](https://github.com/Irvinglove/chatbot-retrieval) | [data](https://github.com/rkadlec/ubuntu-ranking-dataset-creator) 
   - [x] datasets
   - [x] retrieval based
 
