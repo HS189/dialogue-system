@@ -12,8 +12,6 @@
 
 ##### The "UNK" problem
 
-Specific entities, low frequency words cannot be generated
-
 ##### Boring responses/diversity
 
 Easy to generate responses like “I do not know” “why”, “haha” etc.

@@ -1,3 +1,7 @@
+NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/english/question_answering.md
+
+
+
 ### Awesome
 
 + awesome question answering [github](https://github.com/dapurv5/awesome-question-answering) 
@@ -5,7 +9,11 @@
 
 ### Methods
 
-#### Knowledge Based
+#### Combined
+
+#### Knowledge Based :star::star::star::star::star:
+
+#### Generation Based
 
 #### Retrieval Based
 
@@ -24,6 +32,12 @@
 
 - Strong Baselines for Simple Question Answering over Knowledge Graphs with and without Neural Networks, Salman Mohammed, Peng Shi, Jimmy Lin, NAACL HLT 2018, [paper](http://aclweb.org/anthology/N18-2047) | [code](https://github.com/castorini/BuboQA) 
 - Question Answering on Knowledge Bases and Text using Universal Schema and Memory Networks, Rajarshi Das, Manzil Zaheer, Siva Reddy, Andrew McCallum, ACL 2017 [arxiv](https://arxiv.org/abs/1704.08384) | [code](https://github.com/rajarshd/TextKBQA) 
+
+#### learning to rank
+
+- Learning to Rank Short Text Pairs with Convolutional Deep Neural Networks, Aliaksei Severyn，Alessandro Moschitti. SIGIR, 2015 [code](https://github.com/aseveryn/deep-qa) 
+
+  **Question**: match question and answer sentences, how to solve the entities association problem? 
 
 #### text match
 
@@ -45,11 +59,13 @@
 
   3. ...
 
-#### learning to rank
+#### answer seletion
 
-- Learning to Rank Short Text Pairs with Convolutional Deep Neural Networks, Aliaksei Severyn，Alessandro Moschitti. SIGIR, 2015 [code](https://github.com/aseveryn/deep-qa) 
-
-  **Question**: match question and answer sentences, how to solve the entities association problem? 
++ A Review on Deep Learning Techniques Applied to Answer Selection – Tuan Manh Lai, Trung Bui and Sheng Li. COLING 2018 [paper](https://aclanthology.info/papers/C18-1181/c18-1181) 
++ Exploring the Effectiveness of Convolutional Neural Networks for Answer Selection in End-to-End Question Answering, Royal Sequiera, Gaurav Baruah, Zhucheng Tu, Salman Mohammed, Jinfeng Rao, Haotian Zhang, Jimmy Lin, SIGIR 2017 [arxiv](https://arxiv.org/abs/1707.07804) 
++ LSTM-based Deep Learning Models for Non-factoid Answer Selection, Ming Tan, Cicero dos Santos, Bing Xiang, Bowen Zhou, ICLR 2016 [arxiv](https://arxiv.org/abs/1511.04108) 
++ Applying Deep Learning to Answer Selection: A Study and An Open Task, Minwei Feng, Bing Xiang, Michael R. Glass, Lidan Wang, Bowen Zhou, ASRU 2015 [arxiv](https://arxiv.org/abs/1508.01585) 
++ 
 
 #### passage retrieval
 

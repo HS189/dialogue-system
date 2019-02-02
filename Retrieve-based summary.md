@@ -172,6 +172,10 @@ Modeling Topical Coherence in Discourse without Supervision [paper](https://expo
 
   define a threshold at the match stage ?
 
++ how to make the sentence similarity score (word2vec/bert, etc.) be more distinction between each other?
+
+  define a threshold at the match stage ?
+
 + The cosine similarity of two sentence vectors is unreasonably high (e.g. always > 0.8), what's wrong?
 
   (This question is from [bert as service](https://github.com/hanxiao/bert-as-service).)

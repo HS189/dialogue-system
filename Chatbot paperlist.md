@@ -1,3 +1,7 @@
+NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/english/dialogue.md
+
+
+
 ### datasets
 
 + A Survey of Available Corpora for Building Data-Driven Dialogue Systems, Iulian Vlad Serban, Ryan Lowe, Peter Henderson, Laurent Charlin, Joelle Pineau, 2017 [arxiv](https://arxiv.org/abs/1512.05742) 
@@ -24,11 +28,6 @@
 
 ##### paper
 
-- Response Generation by Context-aware Prototype Editing, Yu Wu, Furu Wei, Shaohan Huang, Yunli Wang, Zhoujun Li, Ming Zhou, AAAI-19 [arxiv](https://arxiv.org/abs/1806.07042) | [code](https://github.com/MarkWuNLP/ResponseEdit)
-
-  - [x] generation based
-  - [x] sentence editing
-
 - Neural Response Generation with Dynamic Vocabularies, Yu Wu, Wei Wu, Dejian Yang, Can Xu, Zhoujun Li, Ming Zhou, AAAI18 [arxiv](https://arxiv.org/abs/1711.11191) | [paper and video](链接: https://pan.baidu.com/s/1c298bJi 密码: 6zhj)
 
   - [x] generation based
@@ -52,7 +51,7 @@
 
     (the Hierarchical Encoder Decoder RNN model (HRED) and the Latent Variable Hierarchical Recurrent Encoder-Decoder RNN model (VHRED))
 
-- 2016 [code](https://github.com/UFAL-DSG/tgen)
+- 2016 [code](https://github.com/UFAL-DSG/tgen) 
 
   - [x] generation based
 
@@ -62,7 +61,7 @@
 
 
 
-#### combined
+#### combined :star::star::star::star::star:
 
 ##### retrieval/generation
 
@@ -70,13 +69,18 @@
 
   Intuition: **a common practice of the negative sampling strategy is randomly sampled ones as negative examples. This strategy, however, oversimplifies the learning problem, as most of the randomly sampled responses are either far from the semantics of the messages or the contexts, or they are false negatives which pollute the training data as noise. Using a sequence-to-sequence architecture (Seq2Seq) model as a weak annotator to judge the matching degree of unlabeled pairs, then guide the matching model learning more harder examples and makes the model more robust.**
 
-  - [x] retrieval based
+  - [x] The generation model as the evaluator/annotator of sentence matching.
 
-  - [x] generation based
++ Response Generation by Context-aware Prototype Editing, Yu Wu, Furu Wei, Shaohan Huang, Yunli Wang, Zhoujun Li, Ming Zhou, AAAI-2019 [arxiv](https://arxiv.org/abs/1806.07042) | [code](https://github.com/MarkWuNLP/ResponseEdit) 
 
-    The generation model as the evaluator/annotator of sentence matching.
+  - [x] sentence editing
 
-### Multi-turn Summary
+### Literature Review
+
++ [小哥哥，检索式chatbot了解一下？](https://zhuanlan.zhihu.com/p/44539292)
++ 
+
+### Multi-turn
 
 #### key phrases
 
@@ -95,7 +99,7 @@ Framework II: representation -> matching -> aggregation
   - [x] datasets
   - [x] retrieval based
 
-### Single-turn Summary
+### Single-turn
 
 #### key phrases
 

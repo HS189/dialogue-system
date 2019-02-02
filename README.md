@@ -276,7 +276,7 @@ interrogative, declarative, imperative, and exclamatory
 
 ### 2018
 
-+ Deep Chit-Chat: Deep Learning for ChatBots, Wei Wu and Rui Yan, EMNLP [ppt](http://www.ruiyan.me/pubs/tutorial-emnlp18.pdf) | [video](https://vimeo.com/305179403)
++ Deep Chit-Chat: Deep Learning for ChatBots, Wei Wu and Rui Yan, EMNLP [ppt](http://www.ruiyan.me/pubs/tutorial-emnlp18.pdf) | [video](https://vimeo.com/305179403) 
 
   微软小冰首席科学家武威
 
