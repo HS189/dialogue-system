@@ -39,17 +39,7 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 
 
 
-- Topic Aware Neural Response Generation, Chen Xing, Wei Wu, Yu Wu, Jie Liu, Yalou Huang, Ming Zhou, Wei-Ying Ma, 2016 [arxiv](https://arxiv.org/abs/1606.08340) 
-
-- A Hierarchical Latent Variable Encoder-Decoder Model for Generating Dialogues. Iulian Vlad Serban, Alessandro Sordoni, Ryan Lowe, Laurent Charlin, Joelle Pineau, Aaron Courville, Yoshua Bengio. 2016. [arxiv](http://arxiv.org/abs/1605.06069) 
-
-  Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models. Iulian V. Serban, Alessandro Sordoni, Yoshua Bengio, Aaron Courville, Joelle Pineau. 2016. AAAI. [arxiv](http://arxiv.org/abs/1507.04808).
-
-  [code](https://github.com/julianser/hed-dlg-truncated)
-
-  - [x] generation based 
-
-    (the Hierarchical Encoder Decoder RNN model (HRED) and the Latent Variable Hierarchical Recurrent Encoder-Decoder RNN model (VHRED))
+- Topic Aware Neural Response Generation, Chen Xing, Wei Wu, Yu Wu, Jie Liu, Yalou Huang, Ming Zhou, Wei-Ying Ma, AAAI 2017 [arxiv](https://arxiv.org/abs/1606.08340) 
 
 - 2016 [code](https://github.com/UFAL-DSG/tgen) 
 
@@ -57,7 +47,6 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 
     A*-search based generation, seq2seq generation
 
-- A Neural Network Approach to Context-Sensitive Generation of Conversational Responses, Alessandro Sordoni, Michel Galley, Michael Auli, Chris Brockett, Yangfeng Ji, Margaret Mitchell, Jian-Yun Nie, Jianfeng Gao, Bill Dolan, NAACL-HLT, 2015 [arxiv](https://arxiv.org/abs/1506.06714) 
 
 
 
@@ -75,8 +64,11 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 
   - [x] sentence editing
 
++ Yiping Song, Cheng-Te Li, Jian-Yun Nie, Ming Zhang, Dongyan Zhao, and Rui Yan. An ensemble of retrieval-based and generation-based human computer conversation systems. In IJCAI’18, 2018.
+
 ### Literature Review
 
++ Controllable Text Generation: Types, Knowledge, and Logic. 2018, December, JD AI, 黄民烈 [slides](http://coai.cs.tsinghua.edu.cn/hml/media/files/controllable-text-generation.pdf) 
 + [小哥哥，检索式chatbot了解一下？](https://zhuanlan.zhihu.com/p/44539292)
 + 
 
@@ -90,11 +82,36 @@ Framework I: embedding -> matching
 
 Framework II: representation -> matching -> aggregation
 
+
+
 #### Papers
 
++ How to make contexts more useful? an empirical study to context-aware neural conversation models. Zhiliang Tian, Rui Yan, Lili Mou, Yiping Song, Yansong Feng, and Dongyan Zhao. ACL 2017.
+
 + Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots, Yu Wu, Wei Wu, Chen Xing, Ming Zhou, Zhoujun Li, ACL. 2017 [arxiv](https://arxiv.org/abs/1612.01627) | [code](https://github.com/MarkWuNLP/MultiTurnResponseSelection) 
+
   + [x] retrieval based
+
++ A Hierarchical Latent Variable Encoder-Decoder Model for Generating Dialogues. Iulian Vlad Serban, Alessandro Sordoni, Ryan Lowe, Laurent Charlin, Joelle Pineau, Aaron Courville, Yoshua Bengio. 2016. [arxiv](http://arxiv.org/abs/1605.06069) 
+
+  Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models. Iulian V. Serban, Alessandro Sordoni, Yoshua Bengio, Aaron Courville, Joelle Pineau. AAAI 2016. [arxiv](http://arxiv.org/abs/1507.04808).
+
+  [code](https://github.com/julianser/hed-dlg-truncated) 
+
+  - [x] latent variable modeling
+
+  - [x] hierarchical context modeling
+
+  - [x] generation based 
+
+    (the Hierarchical Encoder Decoder RNN model (HRED) and the Latent Variable Hierarchical Recurrent Encoder-Decoder RNN model (VHRED))
+
++ A Neural Network Approach to Context-Sensitive Generation of Conversational Responses, Alessandro Sordoni, Michel Galley, Michael Auli, Chris Brockett, Yangfeng Ji, Margaret Mitchell, Jian-Yun Nie, Jianfeng Gao, Bill Dolan, NAACL-HLT, 2015 [arxiv](https://arxiv.org/abs/1506.06714) 
+
+  - [x] generation based
+
 + Improved Deep Learning Baselines for Ubuntu Corpus Dialogs, NIPS 2015 [arxiv](https://arxiv.org/abs/1510.03753) | [blog](https://blog.csdn.net/Irving_zhang/article/details/78788929) | [blog](https://blog.csdn.net/qq_32284189/article/details/82350974) 
+
 + The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems, Ryan Lowe, Nissan Pow, Iulian Serban, Joelle Pineau, SIGDIAL 2015 [arxiv](https://arxiv.org/abs/1506.08909) | [source code](https://github.com/npow/ubottu) | [code](https://github.com/dennybritz/chatbot-retrieval) | [new code](https://github.com/Irvinglove/chatbot-retrieval) | [data](https://github.com/rkadlec/ubuntu-ranking-dataset-creator) 
   - [x] datasets
   - [x] retrieval based
