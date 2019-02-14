@@ -41,6 +41,12 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 
 - Topic Aware Neural Response Generation, Chen Xing, Wei Wu, Yu Wu, Jie Liu, Yalou Huang, Ming Zhou, Wei-Ying Ma, AAAI 2017 [arxiv](https://arxiv.org/abs/1606.08340) 
 
+
+
++ A Diversity-Promoting Objective Function for Neural Conversation Models, Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan, NAACL 2016 [arxiv](https://arxiv.org/abs/1510.03055) 
+
+
+
 - 2016 [code](https://github.com/UFAL-DSG/tgen) 
 
   - [x] generation based
