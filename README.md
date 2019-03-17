@@ -100,6 +100,14 @@ interrogative, declarative, imperative, and exclamatory
 
 
 
+## Conference
+
++ SIGdial (Special Interest Group on Discourse and Dialogue) 
+
+  https://www.sigdial.org/
+
+
+
 ## Challenge
 
 + DSTC (Dialog State/System Tracking Challenge)
@@ -271,8 +279,9 @@ interrogative, declarative, imperative, and exclamatory
 
     Multi-round, task-oriented chatbot
 
-
 ## Literature review
+
++ Unsupervised Learning and Modeling of Knowledge and Intent for Spoken Dialogue Systems, Yun-Nung (Vivian) Chen, Ph.D. dissertation [pdf](https://www.csie.ntu.edu.tw/~yvchen/publication.html#thesis) 
 
 ### 2018
 
@@ -306,9 +315,19 @@ interrogative, declarative, imperative, and exclamatory
 
 + Neural approaches in spoken language understanding is just for domain or intent detection and slot filling?
 
+## Scholar
+
++ Maxine Eskenazi [site](http://www.cs.cmu.edu/~max/) 
+
+  Tiancheng Zhao [site](https://www.cs.cmu.edu/~tianchez/) | [github](https://github.com/snakeztc) <u>task-oriented dialog generation</u> :star::star::star::star::star:
+
+   
+
+  
+
 ## Paper notes
 
-Neural Network Dialog System Papers [github](https://github.com/snakeztc/NeuralDialogPapers) active
+Neural Network Dialog System Papers [github](https://github.com/snakeztc/NeuralDialogPapers) active :star::star::star::star::star:
 
 deeplearning-papernotes [github](https://github.com/sld/deeplearning-papernotes) active
 

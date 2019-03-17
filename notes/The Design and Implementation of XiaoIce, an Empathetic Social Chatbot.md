@@ -22,9 +22,9 @@
 
   Lucene
 
-  Resort to a knowledge graph (KG) for query expansion (Only if the number of conversation pairs in the paired dataset where **head** occurs in query and **tail** in response, or vise verse, is larger than <u>a pre-set threshold</u>).
+  Resort to a <u>knowledge graph (KG)</u> for query expansion (Only if the number of conversation pairs in the paired dataset where **head** occurs in query and **tail** in response, or vise verse, is larger than <u>a pre-set threshold</u>).
 
-  1. topic identification (contextual user query)
+  1. **topic** identification (contextual user query)
 
   2. query expansion (using KG retrieve up to n most related topics, These topics are scored by their relevance using a boosted tree ranker[1] trained on manually labeled training data.)
 
@@ -72,9 +72,28 @@
 
 #### Dialogue Manager
 
+Dialogue Manager is the central controller of the dialogue system.
+
 ##### Global State Tracker
 
+Global State Tracker that is responsible for keeping track of the current dialogue state $s$.
+
+user utterance, XiaoIce's response, entities, empathy labels
+
+question: <br>what information is necessary to be encoded into dialogue state vector $s$?
+
 ##### Dialogue Policy
+
+Dialogue Policy $π$ that selects an action based on the dialogue state as $a = π(s)$. The action can be either a skill or Core Chat activated by the top-level policy (it manages <u>the overall conversation</u>) to respond to the user’s specific request, or a response suggested by a skill-specific low-level policy (it manages <u>the conversation segment</u>).
+
+The dialogue policy is designed to optimize the long-term user engagement through an iterative, trial-and-error process based on the feedback of XiaoIce’s users. It works as follows.
+
++ If the user input is text (including speech-converted text) only, Core Chat is activated. Topic Manager is designed to manage <u>the dialogue segment</u> of Core Chat by deciding whether to switch to a new topic or switch from General Chat to a specific Domain Chat if a user interest is detected.
+
++ If the user input is an image or a video clip, the Image Commenting skill is activated.
++ The skills of Task Completion, Deep Engagement and Content Creation are triggered by specific user inputs and conversation context. ...
+
+
 
 ##### Topic Manager
 
