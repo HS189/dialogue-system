@@ -31,6 +31,8 @@
 - Maxine Eskenazi [site](http://www.cs.cmu.edu/~max/) 
 
   Tiancheng Zhao [site](https://www.cs.cmu.edu/~tianchez/) | [github](https://github.com/snakeztc) <u>task-oriented dialog generation</u> :star::star::star::star::star: 
+  
+- Chien-Sheng Wu (Research Scientist at Salesforce Research) [site](<https://github.com/jasonwu0731>)
 
 ---
 
@@ -265,7 +267,7 @@
 
 ---
 
-## Literature review
+## Literature_review
 
 + Unsupervised Learning and Modeling of Knowledge and Intent for Spoken Dialogue Systems, Yun-Nung (Vivian) Chen, Ph.D. dissertation [pdf](https://www.csie.ntu.edu.tw/~yvchen/publication.html#thesis) 
 
@@ -307,7 +309,7 @@
 
 ---
 
-## Paper notes
+## Paper_notes
 
 Neural Network Dialog System Papers [github](https://github.com/snakeztc/NeuralDialogPapers) active :star::star::star::star::star:
 
