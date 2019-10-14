@@ -4,7 +4,17 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 
 ### datasets
 
++ A knowledge-grounded human-human dataset of open-domain conversations.
+
+  <https://github.com/alexa/alexa-prize-topical-chat-dataset>
+
 + A Survey of Available Corpora for Building Data-Driven Dialogue Systems, Iulian Vlad Serban, Ryan Lowe, Peter Henderson, Laurent Charlin, Joelle Pineau, 2017 [arxiv](https://arxiv.org/abs/1512.05742) 
+
++ Improving Neural Conversational Models with Entropy-Based Data Filtering, 2019 ACL [paper](https://www.aclweb.org/anthology/P19-1567) | [code](<https://github.com/ricsinaruto/NeuralChatbots-DataFiltering>) 
+
+  
+
+  
 
 ### models
 
@@ -72,11 +82,17 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 
 + Yiping Song, Cheng-Te Li, Jian-Yun Nie, Ming Zhang, Dongyan Zhao, and Rui Yan. An ensemble of retrieval-based and generation-based human computer conversation systems. In IJCAI’18, 2018.
 
+  
+
++ Semi-supervised Question Retrieval with Gated Convolutions, NAACL 2016 [arxiv](http://arxiv.org/abs/1512.05726) | [code](https://github.com/taolei87/rcnn) 
+
+  
+
 ### Literature Review
 
 + Controllable Text Generation: Types, Knowledge, and Logic. 2018, December, JD AI, 黄民烈 [slides](http://coai.cs.tsinghua.edu.cn/hml/media/files/controllable-text-generation.pdf) 
 + [小哥哥，检索式chatbot了解一下？](https://zhuanlan.zhihu.com/p/44539292)
-+ 
++ [对话系统&聊天机器人的设计艺术（上）](<https://mp.weixin.qq.com/s/pOejCXd64fcpFBRooJLbXw>)
 
 ### Multi-turn
 

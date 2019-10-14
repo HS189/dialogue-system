@@ -80,14 +80,16 @@ interrogative, declarative, imperative, and exclamatory
 
 ### Alex
 
-+ Alex Dialogue Systems Framework [github](https://github.com/UFAL-DSG/alex)
++ Alex Dialogue Systems Framework [github](https://github.com/UFAL-DSG/alex) 
++ 
 
+### AliMe (阿里小蜜)
 
-### AliMe
++ 阿里云小蜜对话机器人背后的核心算法 [blog](https://mp.weixin.qq.com/s/ksVbQq42ay5lxcfqNwBgxA) 
 
 + AliMe Assist: An Intelligent Assistant for Creating an Innovative E-commerce Experience, 2018 [arxiv](https://arxiv.org/abs/1801.05032)
 
-+ AliMe Chat: A Sequence to Sequence and Rerank based Chatbot Engine, ACL 2017 [paper](http://aclweb.org/anthology/P17-2079)
++ AliMe Chat: A Sequence to Sequence and Rerank based Chatbot Engine, ACL 2017 [paper](http://aclweb.org/anthology/P17-2079) 
 
 
 ### Replika.ai
@@ -109,6 +111,10 @@ interrogative, declarative, imperative, and exclamatory
 
 
 ## Challenge
+
++ Amazon Alexa Prize
+
+  https://sounding-board.github.io/
 
 + DSTC (Dialog State/System Tracking Challenge)
 
@@ -244,6 +250,12 @@ interrogative, declarative, imperative, and exclamatory
 
     Overview of the NLPCC 2018 Shared Task: Open Domain QA [paper](http://tcci.ccf.org.cn/conference/2018/papers/EV51.pdf)
 
+  NLPCC 2019
+
+  http://lic2019.ccf.org.cn/talk
+
+  https://github.com/baidu/knowledge-driven-dialogue
+
 ---
 
 + STC (Short Text Conversation)
@@ -308,7 +320,11 @@ interrogative, declarative, imperative, and exclamatory
 
 ### 2017
 
-+ Teaching Machines to Converse, Jiwei Li's Thesis 2017 [code](https://github.com/jiweil/Jiwei-Thesis) | [thesis](https://github.com/jiweil/Jiwei-Thesis/blob/master/thesis.pdf)
++ Teaching Machines to Converse, Jiwei Li's Thesis 2017 [code](https://github.com/jiweil/Jiwei-Thesis) | [thesis](https://github.com/jiweil/Jiwei-Thesis/blob/master/thesis.pdf) 
+
+### 2016
+
++ Dialog System 总结 [site](https://blog.csdn.net/abcjennifer/article/details/53428053#a-network-based-end-to-end-trainable-task-oriented-dialogue-system) 
 
 
 ### Question
@@ -322,6 +338,14 @@ interrogative, declarative, imperative, and exclamatory
   Tiancheng Zhao [site](https://www.cs.cmu.edu/~tianchez/) | [github](https://github.com/snakeztc) <u>task-oriented dialog generation</u> :star::star::star::star::star:
 
    
+
+  
+
+## Awesome
+
++ https://github.com/gaoisbest/NLP-Projects/tree/master/3_Dialog_system
+
++ <https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-and-Related-Research-Paper-Notes-with-Images>
 
   
 
@@ -353,7 +377,9 @@ chatbots [github](https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-an
 
   为了可控性，可以直接用正则表达式解决！
 
-### sentimental
+### sentimental/emotional
+
++ Emotionally-Aware Chatbots: A Survey, Endang Wahyu Pamungkas, [arxiv](<https://arxiv.org/abs/1906.09774v1>) 
 
 
 - Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory, Hao Zhou, Minlie Huang, Tianyang Zhang, Xiaoyan Zhu, Bing Liu, AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](http://coai.cs.tsinghua.edu.cn/publications/)
@@ -378,10 +404,6 @@ chatbots [github](https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-an
 ### sentence function
 
 + Generating Informative Responses with Controlled Sentence Function, 柯沛、关健、黄民烈、朱小燕. ACL 2018 [paper](http://aclweb.org/anthology/P18-1139) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](https://github.com/kepei1106/SentenceFunction) 
-
-### semantically
-
-+ Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, Tsung-Hsien Wen, Milica Gasic, Nikola Mrksic, Pei-Hao Su, David Vandyke, Steve Young, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745) | [code](https://github.com/hit-computer/SC-LSTM) 
 
 
 

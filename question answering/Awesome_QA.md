@@ -1,4 +1,12 @@
+#### Task
 
+
+
+#### Awesome
+
++ https://github.com/seriousmac/awesome-qa
++ <https://github.com/dapurv5/awesome-question-answering>
++ 
 
 
 
@@ -24,7 +32,13 @@
 
   https://github.com/5hirish/adam_qas
 
-+ 
++ A Question Answering system built on top of the Apache UIMA framework. http://ailao.eu/yodaqa
+
+  https://github.com/brmson/yodaqa
+
++ FAQ-based Question Answering System
+
+  https://github.com/baidu/AnyQ
 
 
 

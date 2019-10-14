@@ -77,6 +77,10 @@ https://v3.faqrobot.org/register.html
 
 #### 云知声 - 车载\医疗
 
+知性会话：基于知识图谱的人机对话系统方法与实践教程 [site](<https://edu.csdn.net/course/detail/9250?utm_source=edu_bbs_autocreate>)
+
+
+
 http://dev.hivoice.cn/exp_center/nlu/nlu.jsp
 
 https://github.com/oraleval
