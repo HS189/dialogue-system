@@ -92,7 +92,12 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 
 + Controllable Text Generation: Types, Knowledge, and Logic. 2018, December, JD AI, 黄民烈 [slides](http://coai.cs.tsinghua.edu.cn/hml/media/files/controllable-text-generation.pdf) 
 + [小哥哥，检索式chatbot了解一下？](https://zhuanlan.zhihu.com/p/44539292)
-+ [对话系统&聊天机器人的设计艺术（上）](<https://mp.weixin.qq.com/s/pOejCXd64fcpFBRooJLbXw>)
++ [对话系统&聊天机器人的设计艺术（上）](<https://mp.weixin.qq.com/s/pOejCXd64fcpFBRooJLbXw>) 
++ [对话系统的设计艺术（完结）](https://mp.weixin.qq.com/s/tREtbGpoLR-kc-1DnC8wWg) 
+
+### Blogs
+
++ [如何成为一名对话系统工程师 - 对话系统技能树](https://mp.weixin.qq.com/s/_fKtHPitgNHDWImi5pd07A)
 
 ### Multi-turn
 

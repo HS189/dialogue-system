@@ -1,56 +1,38 @@
-## Methods
+## Contents
 
-### linguistically/semantically
+1. [Awesome](#Awesome)
+2. [Conference](#Conference)
+3. [Scholar](#Scholar)
+4. [Application](#Application)
+5. [Competition](#Competition)
+6. [Literature_review](#Literature_review)
+7. [Paper_notes](#Paper_notes)
+8. [Paper](#Paper)
 
-#### dependency parsing
+---
 
-### neural networks
+## Awesome
 
-## Challenges
+- https://github.com/gaoisbest/NLP-Projects/tree/master/3_Dialog_system
+- <https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-and-Related-Research-Paper-Notes-with-Images>
 
-### multi-hop
+---
 
-### dialogue management  (context)
+## Conference
 
-#### 多场景切换
+- SIGdial (Special Interest Group on Discourse and Dialogue) 
 
-#### 跨场景继承
+  https://www.sigdial.org/
 
-### natural language understanding
+---
 
-#### personality (人格)
+## Scholar
 
-如何让机器人具有特定的说话风格
+- Maxine Eskenazi [site](http://www.cs.cmu.edu/~max/) 
 
-#### sentimental (情商)
+  Tiancheng Zhao [site](https://www.cs.cmu.edu/~tianchez/) | [github](https://github.com/snakeztc) <u>task-oriented dialog generation</u> :star::star::star::star::star: 
 
-#### semantic phenomena
-
-##### coreference
-
-https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30
-
-##### anaphora/pronoun resolution
-
-##### ellipsis
-
-##### sentence function 
-
-interrogative, declarative, imperative, and exclamatory
-
-#### utterance compression
-
-#### short text understanding
-
-### natural language generation
-
-#### sentence editing (句子可控改写)
-
-#### grammar error detection
-
-### data augmentation
-
-
+---
 
 ## Application
 
@@ -100,17 +82,9 @@ interrogative, declarative, imperative, and exclamatory
 
 + https://github.com/SenticNet
 
+---
 
-
-## Conference
-
-+ SIGdial (Special Interest Group on Discourse and Dialogue) 
-
-  https://www.sigdial.org/
-
-
-
-## Challenge
+## Competition
 
 + Amazon Alexa Prize
 
@@ -197,8 +171,6 @@ interrogative, declarative, imperative, and exclamatory
   	ConvAI1<br>	http://convai.io/2017/<br>	Track - The aim of the competition was to implement a bot capable of conversing with humans based on a given passage of text.<br>	[1st place](https://github.com/sld/convai-bot-1337) 
 
 
-
-## Competition
 
 + TREC
 
@@ -291,6 +263,8 @@ interrogative, declarative, imperative, and exclamatory
 
     Multi-round, task-oriented chatbot
 
+---
+
 ## Literature review
 
 + Unsupervised Learning and Modeling of Knowledge and Intent for Spoken Dialogue Systems, Yun-Nung (Vivian) Chen, Ph.D. dissertation [pdf](https://www.csie.ntu.edu.tw/~yvchen/publication.html#thesis) 
@@ -331,23 +305,7 @@ interrogative, declarative, imperative, and exclamatory
 
 + Neural approaches in spoken language understanding is just for domain or intent detection and slot filling?
 
-## Scholar
-
-+ Maxine Eskenazi [site](http://www.cs.cmu.edu/~max/) 
-
-  Tiancheng Zhao [site](https://www.cs.cmu.edu/~tianchez/) | [github](https://github.com/snakeztc) <u>task-oriented dialog generation</u> :star::star::star::star::star:
-
-   
-
-  
-
-## Awesome
-
-+ https://github.com/gaoisbest/NLP-Projects/tree/master/3_Dialog_system
-
-+ <https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-and-Related-Research-Paper-Notes-with-Images>
-
-  
+---
 
 ## Paper notes
 
@@ -363,9 +321,23 @@ chatbots [github](https://github.com/IsaacChanghau/DL-NLP-Readings/blob/master/r
 
 chatbots [github](https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-and-Related-Research-Paper-Notes-with-Images) - 2017
 
+---
+
 ## Paper
 
-### personality
+### multi-hop
+
+### dialogue management  (context)
+
+#### 多场景切换
+
+#### 跨场景继承
+
+### natural language understanding
+
+#### personality (人格)
+
+如何让机器人具有特定的说话风格
 
 - Learning Personalized End-to-End Goal-Oriented Dialog, [Liangchen Luo](https://www.luolc.com/), Wenhao Huang, Qi Zeng, Zaiqing Nie, Xu Sun, AAAI-19 [arxiv](https://arxiv.org/abs/1811.04604) 
 
@@ -377,39 +349,49 @@ chatbots [github](https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-an
 
   为了可控性，可以直接用正则表达式解决！
 
-### sentimental/emotional
+#### sentimental/emotional (情商)
 
-+ Emotionally-Aware Chatbots: A Survey, Endang Wahyu Pamungkas, [arxiv](<https://arxiv.org/abs/1906.09774v1>) 
-
+- Emotionally-Aware Chatbots: A Survey, Endang Wahyu Pamungkas, [arxiv](<https://arxiv.org/abs/1906.09774v1>) 
 
 - Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory, Hao Zhou, Minlie Huang, Tianyang Zhang, Xiaoyan Zhu, Bing Liu, AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](http://coai.cs.tsinghua.edu.cn/publications/)
-
   - [x] natural language generation
 
+#### semantic phenomena
 
-### ellipses 
+##### coreference
 
+https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30
+
+##### anaphora/pronoun resolution
+
+##### ellipsis
 
 - Building an Ellipsis-aware Chinese Dependency Treebank for Web Text, Xuancheng Ren, Xu Sun, Ji Wen, Bingzhen Wei, Weidong Zhan, Zhiyuan Zhang, 2018, [arxiv](https://arxiv.org/abs/1801.06613) | [code](https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis) 
 
+##### sentence function 
+
+interrogative, declarative, imperative, and exclamatory
+
+- Generating Informative Responses with Controlled Sentence Function, 柯沛、关健、黄民烈、朱小燕. ACL 2018 [paper](http://aclweb.org/anthology/P18-1139) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](https://github.com/kepei1106/SentenceFunction) 
+
+#### utterance compression
+
+#### short text understanding
+
+### natural language generation
+
+#### sentence editing (句子可控改写)
+
+#### grammar error detection
+
 ### data augmentation
 
-- Sequence-to-sequence Data Augmentation for Dialogue Language Understanding. Yutai Hou, Yijia Liu, Wanxiang Che, Ting Liu, COLING 2018 [code](https://github.com/AtmaHou/Seq2SeqDataAugmentationForLU)
-
-  - [x] a sequence-to-sequence generation based data augmentation framework
++ Sequence-to-sequence Data Augmentation for Dialogue Language Understanding. Yutai Hou, Yijia Liu, Wanxiang Che, Ting Liu, COLING 2018 [code](https://github.com/AtmaHou/Seq2SeqDataAugmentationForLU)
+  + [x] a sequence-to-sequence generation based data augmentation framework
 
     用户输入多样性拓展生成
 
-
-### sentence function
-
-+ Generating Informative Responses with Controlled Sentence Function, 柯沛、关健、黄民烈、朱小燕. ACL 2018 [paper](http://aclweb.org/anthology/P18-1139) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](https://github.com/kepei1106/SentenceFunction) 
-
-
-
 ---
-
-
 
 more refer:
 
