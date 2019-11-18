@@ -2,6 +2,14 @@ https://github.com/qhduan/ConversationalRobotDesign
 
 ### Chatbot
 
+#### NVIDIA
+
+Neural Modules: a toolkit for conversational AI <https://nvidia.github.io/NeMo/>
+
+<https://github.com/NVIDIA/NeMo>
+
+
+
 #### Watson
 
 https://www.ibm.com/developerworks/cn/cognitive/library/cc-cognitive-media-telco-4-trs/index.html

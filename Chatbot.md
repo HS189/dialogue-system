@@ -2,6 +2,12 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 
 
 
+生成式与检索式对话系统的融合之道
+
+https://mp.weixin.qq.com/s/IQoVHPa0MFaOumXH3B7BwQ
+
+
+
 ### datasets
 
 + A knowledge-grounded human-human dataset of open-domain conversations.
@@ -95,9 +101,18 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 + [对话系统&聊天机器人的设计艺术（上）](<https://mp.weixin.qq.com/s/pOejCXd64fcpFBRooJLbXw>) 
 + [对话系统的设计艺术（完结）](https://mp.weixin.qq.com/s/tREtbGpoLR-kc-1DnC8wWg) 
 
+### Books
+
++ 《聊天机器人：入门、进阶与实战》
+
+  [阿里小蜜、百度对话系统的架构实现](https://mp.weixin.qq.com/s/v-TiTTJ2iCcWLTFWD9WKuQ) 
+
+  
+
 ### Blogs
 
-+ [如何成为一名对话系统工程师 - 对话系统技能树](https://mp.weixin.qq.com/s/_fKtHPitgNHDWImi5pd07A)
++ [如何成为一名对话系统工程师 - 对话系统技能树](https://mp.weixin.qq.com/s/_fKtHPitgNHDWImi5pd07A) 
++ [专栏文章导航&&对话系统梳理](<https://zhuanlan.zhihu.com/p/33219577>)
 
 ### Multi-turn
 
