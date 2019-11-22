@@ -18,7 +18,7 @@ https://mp.weixin.qq.com/s/IQoVHPa0MFaOumXH3B7BwQ
 
 + Improving Neural Conversational Models with Entropy-Based Data Filtering, 2019 ACL [paper](https://www.aclweb.org/anthology/P19-1567) | [code](<https://github.com/ricsinaruto/NeuralChatbots-DataFiltering>) 
 
-  
++ DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, Shuzi Niu. 2017. IJCNLP. [arxiv](https://arxiv.org/abs/1710.03957) [site](<http://yanran.li/dailydialog.html>) .
 
   
 
@@ -44,6 +44,9 @@ https://mp.weixin.qq.com/s/IQoVHPa0MFaOumXH3B7BwQ
 
 ##### paper
 
+- DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation.
+Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan. 201911 Microsoft [arxiv](<https://arxiv.org/abs/1911.00536>) [code](<https://github.com/microsoft/DialoGPT>) 
+  
 - Neural Response Generation with Dynamic Vocabularies, Yu Wu, Wei Wu, Dejian Yang, Can Xu, Zhoujun Li, Ming Zhou, AAAI18 [arxiv](https://arxiv.org/abs/1711.11191) | [paper and video](链接: https://pan.baidu.com/s/1c298bJi 密码: 6zhj)
 
   - [x] generation based
@@ -127,6 +130,10 @@ Framework II: representation -> matching -> aggregation
 
 
 #### Papers
+
++ "Improving Multi-turn Dialogue Modelling with Utterance ReWriter " ACL 2019 [code](<https://github.com/chin-gyou/dialogue-utterance-rewriter>) 
+
+  
 
 + How to make contexts more useful? an empirical study to context-aware neural conversation models. Zhiliang Tian, Rui Yan, Lili Mou, Yiping Song, Yansong Feng, and Dongyan Zhao. ACL 2017.
 
