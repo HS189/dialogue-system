@@ -29,6 +29,14 @@ dialogue act-based diversity
 
 Tiancheng Zhao, Ran Zhao, and Maxine Eskenazi. Learning discourse-level diversity for neural dialog models using conditional variational autoencoders. In ACL’17, pages 654–664, 2017.
 
+
+
+处理对话系统的无聊回复，用反向概率p(source|target)做reranking现在应该已经是标配。再比如Rico Sennrich的成名作之一将Monolingual data 跟seq2seq 模型结合。其实这连个思想在phrase-base MT 里面早就被广发的使用。Neural之前的MT，需要对一个大的N-best list用MERT做 reranking， 反向概率 p(source|target) 以及语言模型概率 p(target)是reranking中feature的标配。
+
+refer: [初入NLP领域的一些小建议](<https://zhuanlan.zhihu.com/p/59184256>) 
+
+
+
 #### Methods
 
 ##### Latent Variable

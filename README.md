@@ -70,10 +70,10 @@
 ### AliMe (阿里小蜜)
 
 + 阿里云小蜜对话机器人背后的核心算法 [blog](https://mp.weixin.qq.com/s/ksVbQq42ay5lxcfqNwBgxA) 
-
 + AliMe Assist: An Intelligent Assistant for Creating an Innovative E-commerce Experience, 2018 [arxiv](https://arxiv.org/abs/1801.05032)
-
 + AliMe Chat: A Sequence to Sequence and Rerank based Chatbot Engine, ACL 2017 [paper](http://aclweb.org/anthology/P17-2079) 
++ AliMe KBQA: Question Answering over Structured Knowledge for E-commerce Customer Service
+  Feng-Lin Li, Weijia Chen, Qi Huang, Yikun Guo [arxiv](<https://arxiv.org/abs/1912.05728>) 
 
 
 ### Replika.ai
