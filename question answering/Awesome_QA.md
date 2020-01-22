@@ -36,7 +36,7 @@
 
   https://github.com/brmson/yodaqa
 
-+ FAQ-based Question Answering System
++ FAQ-based Question Answering System :star::star::star:
 
   https://github.com/baidu/AnyQ
 

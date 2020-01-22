@@ -353,9 +353,16 @@ chatbots [github](https://github.com/ricsinaruto/Seq2seqChatbots/wiki/Chatbot-an
 
 #### sentimental/emotional (情商)
 
+- <https://github.com/SenticNet/conv-emotion>
+
+- MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation
+
+  <https://github.com/SenticNet/MELD>
+
 - Emotionally-Aware Chatbots: A Survey, Endang Wahyu Pamungkas, [arxiv](<https://arxiv.org/abs/1906.09774v1>) 
 
 - Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory, Hao Zhou, Minlie Huang, Tianyang Zhang, Xiaoyan Zhu, Bing Liu, AAAI 2018 [arxiv](https://arxiv.org/abs/1704.01074) | [data](http://coai.cs.tsinghua.edu.cn/hml/dataset/) | [code](http://coai.cs.tsinghua.edu.cn/publications/)
+  
   - [x] natural language generation
 
 #### semantic phenomena

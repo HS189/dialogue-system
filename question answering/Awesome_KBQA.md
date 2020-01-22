@@ -48,6 +48,17 @@
   > ● 使用邻接链表表示自然语言问句
   > ● 通过遍历有向图或子图匹配方法构造 SPAPQL 查询语句
 
++ gAnswer
+
+  <http://openkg.cn/tool/ganswer>
+
+  > 一个基于开放领域知识图谱的自然语言问答(QA)系统，能够将自然语言问题转化成包含语义信息的查询图，并将查询图转化成标准的SPARQL查询，将这些查询在图数据库(gStore)中执行，最终得到用户的答案。目前英文问答基于DBpedia2016数据集，中文问答基于PKU BASE。
+
++ 基于知识图谱的问答系统(KBQA) [site](<https://blog.csdn.net/keyue123/article/details/85266355>) 
++ 基于ElasticSearch的问答系统(KBQA) [site](<https://blog.csdn.net/keyue123/article/details/85317774>) 
+
+
+
 
 
 ## Tutorials
