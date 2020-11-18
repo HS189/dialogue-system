@@ -37,6 +37,10 @@ refer:
   If you do not add any data for the **None** intent, it will forces an utterances that is outside the domain into one of the domain intents.
 
   How to construct training data for `none` intent ?
+  
+  NLP技术的应用及思考 [site](<https://developer.aliyun.com/article/78031>) 
+  
+  
 
 
 

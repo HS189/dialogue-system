@@ -6,7 +6,13 @@
 
 目前 KBQA 主要应用于简单的知识库问答，无法进行复杂的推理等。
 
-#### Architecture
+#### Method
+
+![Two_streams](https://github.com/bifeng/dialogue-system/raw/master/image/Two_streams.png)
+
+> from - **Tutorial 6 基于知识的自然语言问答** [【PDF下载】](https://hub-cache.baai.ac.cn/hub-pdf/20201111/Tutorial 6 基于知识的自然语言问答.pdf)[[▶视频回放\]](https://hub.baai.ac.cn/view/4019) Speaker: 冯岩松（北京大学）
+
+
 
 + semi-supervised / unsupervised
 
@@ -54,7 +60,14 @@
 
 + 大规模医疗知识图谱的构建与应用, 2018 刘升平博士，资深技术专家，云知声 AI Labs [ppt](http://www.ccks2018.cn/)
 + 《大词林》中实体上位词获取及层次化构建方法, 2015 - [ppt](http://qngw2014.bj.bcebos.com/upload/kg3/KG%202015%20-%E3%80%8A%E5%A4%A7%E8%AF%8D%E6%9E%97%E3%80%8B%E4%B8%AD%E5%AE%9E%E4%BD%93%E4%B8%8A%E4%BD%8D%E8%AF%8D%E8%8E%B7%E5%8F%96%E5%8F%8A%E5%B1%82%E6%AC%A1%E5%8C%96%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95.pdf) 
-+ 
+
+
+
++ <https://github.com/liuhuanyong/QASystemOnMedicalKG>
+
+  
+
+  ![qa_route](https://github.com/bifeng/dialogue-system/raw/master/image/qa_route.png)
 
 #### Question
 
@@ -66,6 +79,19 @@
 
 + 知识库 实体消歧 - 知识库存在多个同义实体？
 
+
+
+#### Summary
+
+1. KB当做知识库查询
+
+2. KB用于扩展query
+
+3. KB用于问答推理
+
+   目前，使用KB推理提高问答的可解释性方法有哪些？
+
+   
 
 
 

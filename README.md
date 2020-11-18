@@ -92,6 +92,8 @@
 
   https://sounding-board.github.io/
 
+  2018 [1st](<https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexaprize/assets/pdf/2018/Gunrock.pdf>) [ppt](<https://drive.google.com/file/d/1TUnU-iVmxS-lr5n6_vpMOgOBB5LrPHdE/view>) Gunrock: Building A Human-Like Social Bot By Leveraging Large Scale Real User Data
+
 + DSTC (Dialog State/System Tracking Challenge)
 
   DSTC1
